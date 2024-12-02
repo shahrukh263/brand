@@ -2,7 +2,7 @@ import { NextComponentType } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import ModerationImg from "../images/moderation-img.png";
-import RepliesImg from "../images/AI-generated-replies-img.png";
+import RepliesImg from "../images/AIgenerated-replies-img.png";
 import ObieImg from "../images/obie-img.png";
 const PlatformComt: NextComponentType = () => {
   return (
