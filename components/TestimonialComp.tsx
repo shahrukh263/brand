@@ -7,6 +7,7 @@ import GoodwellLogo from "../images/goodwell-logo.png";
 import UserImg from "../images/user-img.png";
 // Import Swiper styles
 import "swiper/css";
+import { Autoplay } from "swiper";
 
 const TestimonialComp: NextComponentType = () => {
   return (
@@ -23,6 +24,11 @@ const TestimonialComp: NextComponentType = () => {
           </div>
           <Swiper
             className="mySwiper"
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
             breakpoints={{
               // when window width is >= 640px
               320: {
