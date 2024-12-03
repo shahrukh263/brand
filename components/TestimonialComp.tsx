@@ -61,14 +61,19 @@ const TestimonialComp: NextComponentType = () => {
                 </p>
                 <div className="mt-12 flex items-center gap-x-3">
                   <div className="flex-shrink-0">
-                    <Image
+                    {/* <Image
                       src={UserImg}
                       width={48}
                       height={48}
                       objectFit="cover"
                       alt=""
                       className="img-block rounded-full  opacity-[0.08px]"
-                    />
+                    /> */}
+                    <div className="w-12 h-12 rounded-full gradient1 flex justify-center items-center">
+                      <span className="font-[800] text-base tracking-[0.03em]">
+                        NG
+                      </span>
+                    </div>
                   </div>
                   <div>
                     <h4 className="text-[#0C111D] font-[500] text-base tracking-[-0.011em]">
@@ -85,25 +90,25 @@ const TestimonialComp: NextComponentType = () => {
               <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8">
                 <Image src={StackedLogo} alt="" />
                 <p className="text-[#475467] text-base tracking-[-0.011em] mt-3">
-                Our workflow has improved dramatically since we started using Brandwise and it’s become an integral part of our workflow. It's easy to use, and the resources are top-notch. I recommend it to everyone!
+                  Our workflow has improved dramatically since we started using
+                  Brandwise and it’s become an integral part of our workflow.
+                  It's easy to use, and the resources are top-notch. I recommend
+                  it to everyone!
                 </p>
                 <div className="mt-12 flex items-center gap-x-3">
                   <div className="flex-shrink-0">
-                    <Image
-                      src={UserImg}
-                      width={48}
-                      height={48}
-                      objectFit="cover"
-                      alt=""
-                      className="img-block rounded-full  opacity-[0.08px]"
-                    />
+                    <div className="w-12 h-12 rounded-full gradient2 flex justify-center items-center">
+                      <span className="font-[800] text-base tracking-[0.03em]">
+                        ML
+                      </span>
+                    </div>
                   </div>
                   <div>
                     <h4 className="text-[#0C111D] font-[500] text-base tracking-[-0.011em]">
-                    Mathilde Lewis
+                      Mathilde Lewis
                     </h4>
                     <p className="text-[#475467] text-base tracking-[-0.011em]">
-                    Project Lead, Stack3d Lab
+                      Project Lead, Stack3d Lab
                     </p>
                   </div>
                 </div>
@@ -113,25 +118,23 @@ const TestimonialComp: NextComponentType = () => {
               <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8">
                 <Image src={GoodwellLogo} alt="" />
                 <p className="text-[#475467] text-base tracking-[-0.011em] mt-3">
-                Brandwise is our secret weapon for staying ahead of deadlines. It gives us everything we need to get started quickly.
+                  Brandwise is our secret weapon for staying ahead of deadlines.
+                  It gives us everything we need to get started quickly.
                 </p>
                 <div className="mt-12 flex items-center gap-x-3">
                   <div className="flex-shrink-0">
-                    <Image
-                      src={UserImg}
-                      width={48}
-                      height={48}
-                      objectFit="cover"
-                      alt=""
-                      className="img-block rounded-full  opacity-[0.08px]"
-                    />
+                  <div className="w-12 h-12 rounded-full gradient3 flex justify-center items-center">
+                      <span className="font-[800] text-base tracking-[0.03em]">
+                      AF
+                      </span>
+                    </div>
                   </div>
                   <div>
                     <h4 className="text-[#0C111D] font-[500] text-base tracking-[-0.011em]">
-                    Ammar Foley
+                      Ammar Foley
                     </h4>
                     <p className="text-[#475467] text-base tracking-[-0.011em]">
-                    UX Designer, Goodwell
+                      UX Designer, Goodwell
                     </p>
                   </div>
                 </div>
