@@ -28,7 +28,7 @@ const PricingHero = () => {
               className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[800] text-[#2B2866] tracking-[-0.02em]"
             >
               I have{" "}
-              <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px]">
+              <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px] min-w-[93px] inline-block">
                 {values}
               </span>{" "}
               support tickets per month on average
