@@ -26,7 +26,7 @@ const PricingHero = () => {
           <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[42px] mt-[32px]">
             <h2
               data-aos="fade-up"
-              className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[800] text-[#2B2866] tracking-[-0.02em]"
+              className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display"
             >
               I have{" "}
               <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px] min-w-[93px] inline-block">
@@ -185,7 +185,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] tracking-[-0.02em] leading-[1] inter-display">
                             $49
                           </h2>
                           <div>
@@ -225,7 +225,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
                             $99
                           </h2>
                           <div>
@@ -262,7 +262,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
                             $179
                           </h2>
                           <div>
@@ -299,7 +299,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
                             $269
                           </h2>
                           <div>
@@ -340,7 +340,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
                             $49
                           </h2>
                           <div>
@@ -380,7 +380,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
                             $99
                           </h2>
                           <div>
@@ -417,7 +417,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
                             $179
                           </h2>
                           <div>
@@ -454,7 +454,7 @@ const PricingHero = () => {
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[800] tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
                             $269
                           </h2>
                           <div>
@@ -482,7 +482,7 @@ const PricingHero = () => {
               </div>
             </div>
             <div className="text-center" data-aos="fade-up">
-              <h4 className="text-[#2B2866] md:text-[24px] text-[20px] md:leading-[32px] leading-[28px] font-[800] md:tracking-[-0.02em] tracking-[-0.01em] mb-4">
+              <h4 className="text-[#2B2866] md:text-[24px] text-[20px] md:leading-[32px] leading-[28px] font-[600] inter-display md:tracking-[-0.02em] tracking-[-0.01em] mb-4">
                 Have questions or want to build a custom plan for your store?
               </h4>
               <Link href={"#"} passHref>
