@@ -14,7 +14,7 @@ const SocialFeature: NextComponentType = () => {
         <div className="innerDiv">
           <h4
             data-aos="fade-up"
-            className="text-[#2B2866] md:text-[40px] md:leading-10 text-[32px] leading-[38px] font-[800] tracking-[-0.005em] text-center md:mb-12 mb-8"
+            className="text-[#2B2866] md:text-[40px] md:leading-10 text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.005em] text-center md:mb-12 mb-8"
           >
             Some text goes here
           </h4>
@@ -30,7 +30,7 @@ const SocialFeature: NextComponentType = () => {
                   className="rounded-t-3xl !block"
                 />
                 <div className=" p-6">
-                  <h4 className="text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">
+                  <h4 className="text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     Analytics
                   </h4>
                   <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
@@ -51,7 +51,7 @@ const SocialFeature: NextComponentType = () => {
                   className="rounded-t-3xl !block"
                 />
                 <div className=" p-6">
-                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">
+                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     DMs & Mentions
                   </h4>
                   <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
@@ -72,7 +72,7 @@ const SocialFeature: NextComponentType = () => {
                   className="rounded-t-3xl !block"
                 />
                 <div className=" p-6">
-                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">
+                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     Post Viewer
                   </h4>
                   <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
@@ -93,7 +93,7 @@ const SocialFeature: NextComponentType = () => {
                   className="rounded-t-3xl !block"
                 />
                 <div className=" p-6">
-                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">
+                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     2-way Translation
                   </h4>
                   <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
@@ -114,10 +114,10 @@ const SocialFeature: NextComponentType = () => {
                   className="rounded-t-3xl !block"
                 />
                 <div className=" p-6">
-                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">
+                  <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     Blacklist
                   </h4>
-                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
+                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] inter-display">
                     Automatically hide comments containing certain words or
                     phrases.
                   </p>

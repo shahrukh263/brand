@@ -13,7 +13,7 @@ const PlatformComt: NextComponentType = () => {
             className="text-center lg:mb-24 md:mb-16 sm:mb-12 mb-8"
             data-aos="fade-up"
           >
-            <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[800] tracking-[-0.02em]">
+            <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em]">
               Every social platform in one place
             </h3>
             <p className="text-[16px] font-medium leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] lg:w-9/12 xl:w-1/2 mx-auto">
@@ -26,7 +26,7 @@ const PlatformComt: NextComponentType = () => {
               className="sm:px-4 xl:w-5/12 lg:w-5/12 md:w-1/2 w-full md:order-1 order-2"
               data-aos="fade-right"
             >
-              <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[800] tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
+              <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                 Boost your ROAS with Automated Moderation
               </h4>
               <ul className="flex flex-col gap-y-4">
@@ -127,7 +127,7 @@ const PlatformComt: NextComponentType = () => {
                 className="sm:px-4 xl:w-5/12 lg:w-5/12 md:w-1/2 w-full"
                 data-aos="fade-left"
               >
-                <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[800] tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
+                <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                   Drive engagement with AI Generated Replies
                 </h4>
                 <ul className="flex flex-col gap-y-4">
@@ -215,7 +215,7 @@ const PlatformComt: NextComponentType = () => {
                 className="sm:px-4 xl:w-5/12 lg:w-5/12 md:w-1/2 w-full md:order-1 order-2"
                 data-aos="fade-right"
               >
-                <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[800] tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
+                <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                   Discover opportunities with Obie
                 </h4>
                 <ul className="flex flex-col gap-y-4">
