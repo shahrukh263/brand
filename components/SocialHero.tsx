@@ -5,7 +5,7 @@ import Link from "next/link";
 const SocialHero: NextComponentType = () => {
   return (
     <>
-      <section className="mb-16 pt-16 md:pt-20 relative bg-[url('../images/social-hero-bg.png')] bg-cover bg-no-repeat bg-bottom md:bg-top">
+      <section className="mb-16 pt-16 md:pt-20 relative bg-[url('../images/social-hero-bg.png')] bg-cover bg-no-repeat bg-bottom">
         <div className="innerDiv">
           <div className="text-center" data-aos="fade-up">
             {/* <p className="uppercase text-xs font-medium tracking-[0.04em] text-[#5650CD] mb-8">
