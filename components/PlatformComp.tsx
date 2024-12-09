@@ -92,7 +92,7 @@ const PlatformComt: NextComponentType = () => {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="text-white w-4 h-4"
+                      className="text-white w-5 h-5"
                     >
                       <path
                         strokeLinecap="round"
@@ -195,7 +195,7 @@ const PlatformComt: NextComponentType = () => {
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
                         stroke="currentColor"
-                        className="text-white w-4 h-4"
+                        className="text-white w-5 h-5"
                       >
                         <path
                           strokeLinecap="round"
@@ -284,7 +284,7 @@ const PlatformComt: NextComponentType = () => {
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
                         stroke="currentColor"
-                        className="text-white w-4 h-4"
+                        className="text-white w-5 h-5"
                       >
                         <path
                           strokeLinecap="round"
