@@ -197,7 +197,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
@@ -213,7 +213,7 @@ const PricingHero = () => {
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
                       <div className="relative rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
-                        <span className="absolute right-3 top-3 font-medium tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-light-primary rounded-lg">
+                        <span className="absolute right-3 top-3 font-medium tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
                           Recommended
                         </span>
                         <div className="mb-6">
@@ -274,7 +274,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
@@ -311,7 +311,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
@@ -352,7 +352,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
@@ -429,7 +429,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
@@ -466,7 +466,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
