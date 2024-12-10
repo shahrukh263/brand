@@ -23,7 +23,7 @@ const Navbar: NextComponentType = () => {
               </Link>
               <div className="md:hidden block">
                 <Link href={"#"} passHref>
-                  <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)]">
+                  <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg">
                     Start Free Trial
                   </a>
                 </Link>
@@ -140,7 +140,7 @@ const Navbar: NextComponentType = () => {
                 </li>
                 <li className="md:block hidden">
                   <Link href={"#"} passHref>
-                    <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                    <a className="theme-btn inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg">
                       Start Free Trial
                     </a>
                   </Link>

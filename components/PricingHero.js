@@ -237,7 +237,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)] theme-btn">
+                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
@@ -392,7 +392,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)] theme-btn">
+                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
