@@ -408,25 +408,32 @@ footer {
 
 .theme-btn {
   background: linear-gradient(0deg, #6962fb, #6962fb),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.16) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
   box-shadow: 0px 0px 0px 1px #335cff, 0px 1px 2px 0px rgba(14, 18, 27, 0.24);
-  outline: 1px solid rgba(255, 255, 255, 0.12);
-  outline-offset: -1px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+border-image-slice: 1;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
 
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-bottom:5px solid #6962fb;
-    left: 0;
-    right: 0;
-    border-radius: 50px;
-  }
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   bottom: 0;
+  //   width: 100%;
+  //   border-bottom:5px solid #6962fb;
+  //   left: 0;
+  //   right: 0;
+  //   border-radius: 50px;
+  // }
 }
 
 .img-block {
@@ -532,26 +539,32 @@ footer {
 }
 
 .gradient1 {
-  background: linear-gradient(179.39deg,
-      rgba(255, 255, 255, 0.5) -16.97%,
-      rgba(112, 107, 233, 0.5) 153.63%,
-      rgba(89, 37, 220, 0.5) 275.81%);
+  background: linear-gradient(
+    179.39deg,
+    rgba(255, 255, 255, 0.5) -16.97%,
+    rgba(112, 107, 233, 0.5) 153.63%,
+    rgba(89, 37, 220, 0.5) 275.81%
+  );
 
   & span {
     background: linear-gradient(180deg, #bbb5f0 -53.03%, #5925dc 123.4%),
-      linear-gradient(0deg,
+      linear-gradient(
+        0deg,
         rgba(255, 255, 255, 0.16),
-        rgba(255, 255, 255, 0.16));
+        rgba(255, 255, 255, 0.16)
+      );
     background-clip: text;
     color: transparent;
   }
 }
 
 .gradient2 {
-  background: linear-gradient(181.71deg,
-      #ffffff -15.84%,
-      #8ab7f7 189.38%,
-      #377ada 249.21%);
+  background: linear-gradient(
+    181.71deg,
+    #ffffff -15.84%,
+    #8ab7f7 189.38%,
+    #377ada 249.21%
+  );
 
   & span {
     background: linear-gradient(180deg, #8ab7f7 -53.03%, #1570ef 123.4%);
@@ -561,10 +574,12 @@ footer {
 }
 
 .gradient3 {
-  background: linear-gradient(181.71deg,
-      #ffffff -15.84%,
-      #37a976 189.38%,
-      #42ae7e 249.21%);
+  background: linear-gradient(
+    181.71deg,
+    #ffffff -15.84%,
+    #37a976 189.38%,
+    #42ae7e 249.21%
+  );
 
   & span {
     background: linear-gradient(188.48deg, #51b488 13.36%, #079455 114.45%);
