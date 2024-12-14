@@ -21,9 +21,9 @@ const PlatformComt: NextComponentType = () => {
               one place.
             </p>
           </div>
-          <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center lg:gap-x-3">
+          <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center">
             <div
-              className="sm:px-4 xl:w-5/12 lg:w-5/12 md:w-1/2 w-full md:order-1 order-2"
+              className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
               data-aos="fade-right"
             >
               <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
@@ -116,7 +116,7 @@ const PlatformComt: NextComponentType = () => {
             </div>
           </div>
           <div className="lg:pt-16 pt-12">
-            <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center lg:gap-x-3">
+            <div className="flex flex-wrap sm:-mx-4 md:justify-between md:items-center">
               <div
                 className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full"
                 data-aos="fade-right"
@@ -124,7 +124,7 @@ const PlatformComt: NextComponentType = () => {
                 <Image src={RepliesImg} alt="" className="!block rounded-2xl" />
               </div>
               <div
-                className="sm:px-4 xl:w-5/12 lg:w-5/12 md:w-1/2 w-full"
+                className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full"
                 data-aos="fade-left"
               >
                 <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
@@ -210,9 +210,9 @@ const PlatformComt: NextComponentType = () => {
             </div>
           </div>
           <div className="lg:pt-16 pt-12">
-            <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center lg:gap-x-3">
+            <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center">
               <div
-                className="sm:px-4 xl:w-5/12 lg:w-5/12 md:w-1/2 w-full md:order-1 order-2"
+                className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
                 data-aos="fade-right"
               >
                 <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
