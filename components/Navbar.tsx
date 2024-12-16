@@ -77,7 +77,7 @@ const Navbar: NextComponentType = () => {
                   <Link href={"#"} passHref>
                     <a className="inline-flex items-center gap-1 py-[22px] lg:px-7 md:px-3 text-[#475467] text-[14px] font-medium leading-[20px] tracking-[-0.006em]">
                       Product{" "}
-                      <svg
+                      {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ const Navbar: NextComponentType = () => {
                           strokeLinejoin="round"
                           d="m19.5 8.25-7.5 7.5-7.5-7.5"
                         />
-                      </svg>
+                      </svg> */}
                     </a>
                   </Link>
                 </li>
@@ -112,7 +112,7 @@ const Navbar: NextComponentType = () => {
                   <Link href={"#"} passHref>
                     <a className="inline-flex items-center gap-1 py-[22px] lg:px-7 md:px-3 text-[#475467] text-[14px] font-medium leading-[20px] tracking-[-0.006em]">
                       Resources{" "}
-                      <svg
+                      {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -125,7 +125,7 @@ const Navbar: NextComponentType = () => {
                           strokeLinejoin="round"
                           d="m19.5 8.25-7.5 7.5-7.5-7.5"
                         />
-                      </svg>
+                      </svg> */}
                     </a>
                   </Link>
                 </li>

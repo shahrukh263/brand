@@ -9,11 +9,11 @@ const TrialComp: NextComponentType = () => {
         <div className="innerDiv">
           <div className="overflow-hidden rounded-3xl bg-[url('../images/free-trial-bg.png')] lg:pl-16 md:pl-12 md:pr-0 lg:pt-20 pt-10 bg-cover lg:bg-no-repeat bg-center">
             <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
-              <div className="md:text-left text-center md:pr-3 md:pl-0 md:mb-0 mb-6 px-6" data-aos="fade-right">
+              <div className="md:text-left text-center md:pr-3 md:pl-0 md:mb-0 mb-6 px-6 lg:pr-[52px]" data-aos="fade-right">
                 <h3 className="text-[#2B2866] font-[600] inter-display lg:text-[56px] lg:leading-[1] md:text-[42px] sm:text-4xl text-[32px] leading-[38px]">
                   Get started with Brandwise today
                 </h3>
-                <p className="text-[#475467] md:mt-5 mt-4 lg:mb-8 mb-5">
+                <p className="text-[#475467] md:mt-5 mt-4 lg:mb-8 mb-5 md:text-lg text-sm font-medium">
                   Try Brandwise free for 7 days—you'll have access to every
                   feature. Cancel any time.
                 </p>
