@@ -53,7 +53,7 @@ const PricingHero = () => {
                     values={values}
                     onChange={(values) => setValues(values)}
                     renderTrack={({ props, children }) => (
-                      <div
+                      <div className="thumb-slider"
                         {...props}
                         style={{
                           ...props.style,
@@ -92,35 +92,35 @@ const PricingHero = () => {
                   />
                 </div>
 
-                <div className="mt-6 flex justify-between md:gap-0 gap-3 md:overflow-x-hidden overflow-x-auto">
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3]">
+                <div className="pt-6 flex justify-between md:gap-0 gap-3 md:overflow-x-hidden overflow-x-auto">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     100
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     250
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     500
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     1000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     2500
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     5000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     10000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     15000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     20000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D]">
+                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     25000
                   </span>
                 </div>

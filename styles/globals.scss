@@ -587,3 +587,19 @@ border-image-slice: 1;
     color: transparent;
   }
 }
+
+.thumb-slider{
+  & > div:nth-child(1):after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #6962FB;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -14px;
+  }
+}
+
+
+
