@@ -133,7 +133,7 @@ const Navbar: NextComponentType = () => {
               <ul className="flex gap-4">
                 <li>
                   <Link href={"#"} passHref>
-                    <a className="inline-block p-[6px] rounded-lg text-[#475467] text-[14px] font-medium leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
+                    <a className="inline-block px-[10px] py-[6px] rounded-lg text-[#475467] text-[14px] font-medium leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                       Log In
                     </a>
                   </Link>
