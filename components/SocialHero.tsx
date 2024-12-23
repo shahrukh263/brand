@@ -14,26 +14,27 @@ const SocialHero: NextComponentType = () => {
             <h1 className="font-[600] inter-display lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] lg:w-9/12 mx-auto">
               Convert more sales with smarter engagement
             </h1>
-            <p className="text-[#475467] md:text-base text-sm font-[500] mt-5 mb-8">
+            <p className="text-[#475467] md:text-base text-sm tracking-[-0.011em] font-[500] mt-5 mb-8">
               Moderate comments, manage conversations at scale, and increase
               your sales with AI.
             </p>
             <div className="flex sm:flex-row flex-col gap-3 justify-center">
               <Link href={"#"} passHref>
-                <a className="flex items-center justify-center gap-1 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] px-[10px] theme-btn rounded-[10px] border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                <a className="flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-[10px]">
                   Start Free Trial
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
                     fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="text-white w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
+                      d="M7.5 5L12.5 10L7.5 15"
+                      stroke="white"
+                      strokeWidth="1.66667"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      d="m8.25 4.5 7.5 7.5-7.5 7.5"
                     />
                   </svg>
                 </a>
@@ -46,9 +47,9 @@ const SocialHero: NextComponentType = () => {
             </div>
           </div>
         </div>
-          <div data-aos="fade-up">
-            <Image src={HeroImg} alt="" />
-          </div>
+        <div data-aos="fade-up">
+          <Image src={HeroImg} alt="" />
+        </div>
       </section>
     </>
   );

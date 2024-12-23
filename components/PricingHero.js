@@ -19,7 +19,7 @@ const PricingHero = () => {
             <p className="text-[#475467] md:text-base text-sm font-[500] mt-5">
               Every feature and unlimited team members on every plan.
             </p>
-            <p className="text-[#475467] md:text-base text-sm font-[500]">
+            <p className="text-[#475467] md:text-base text-sm font-[500] mt-1">
               Only pay based on AI usage.
             </p>
           </div>
@@ -79,8 +79,8 @@ const PricingHero = () => {
                         key={props.key}
                         style={{
                           ...props.style,
-                          height: "20px",
-                          width: "20px",
+                          height: "24px",
+                          width: "24px",
                           backgroundColor: "#ffffff",
                           borderRadius: "20px",
                           border: "2px solid #6962FB",

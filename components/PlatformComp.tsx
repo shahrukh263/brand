@@ -7,7 +7,7 @@ import ObieImg from "../images/obie-img.png";
 const PlatformComt: NextComponentType = () => {
   return (
     <>
-      <section className="lg:py-24 md:py-20 sm:py-16 py-12">
+      <section className="lg:py-24 md:py-20 sm:py-16 py-12 relative md:after:bg-[url('../images/social-platform-bg.png')] md:after:absolute md:after:right-0 md:after:top-0 md:after:w-1/2 md:after:h-[421px] md:after:bg-no-repeat md:after:bg-cover md:after:z-[-1]">
         <div className="innerDiv">
           <div
             className="text-center lg:mb-24 md:mb-16 sm:mb-12 mb-8"
@@ -16,9 +16,9 @@ const PlatformComt: NextComponentType = () => {
             <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em]">
               Every social platform in one place
             </h3>
-            <p className="text-[16px] font-medium leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] lg:w-9/12 xl:w-1/2 mx-auto">
+            <p className="text-[16px] font-medium leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] mx-auto">
               Manage conversations, moderate comments, and craft responses from
-              one place.
+              one <span className="md:block">place.</span>
             </p>
           </div>
           <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center">
@@ -85,22 +85,23 @@ const PlatformComt: NextComponentType = () => {
               </ul>
               <div className="md:mt-8 mt-6">
                 <Link href={"#"} passHref>
-                  <a className="md:inline-flex flex items-center justify-center gap-1 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] px-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
                     Start Free Trial
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="text-white w-5 h-5"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                      />
-                    </svg>
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.5 5L12.5 10L7.5 15"
+                      stroke="white"
+                      strokeWidth="1.66667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                   </a>
                 </Link>
               </div>
@@ -190,23 +191,24 @@ const PlatformComt: NextComponentType = () => {
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                    <a className="md:inline-flex flex items-center justify-center gap-1 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] px-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
-                      Start Free Trial
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="text-white w-5 h-5"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                        />
-                      </svg>
-                    </a>
+                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                    Start Free Trial
+                    <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.5 5L12.5 10L7.5 15"
+                      stroke="white"
+                      strokeWidth="1.66667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  </a>
                   </Link>
                 </div>
                </div>
@@ -281,23 +283,24 @@ const PlatformComt: NextComponentType = () => {
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                    <a className="md:inline-flex flex items-center justify-center gap-1 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] px-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
-                      Start Free Trial
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="text-white w-5 h-5"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                        />
-                      </svg>
-                    </a>
+                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                    Start Free Trial
+                    <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.5 5L12.5 10L7.5 15"
+                      stroke="white"
+                      strokeWidth="1.66667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  </a>
                   </Link>
                 </div>
                 </div>

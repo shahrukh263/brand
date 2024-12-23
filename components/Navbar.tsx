@@ -17,13 +17,13 @@ const Navbar: NextComponentType = () => {
           <nav className="md:flex items-center">
             <div className="flex items-center justify-between">
               <Link href={"/"} passHref>
-                <a className="inline-block py-[19px]">
+                <a className="inline-block py-[19px] logo">
                   <Image src={Logo} alt="" className="" />
                 </a>
               </Link>
               <div className="md:hidden block">
                 <Link href={"#"} passHref>
-                  <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg">
+                  <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg trial-mobile-btn">
                     Start Free Trial
                   </a>
                 </Link>
@@ -31,36 +31,38 @@ const Navbar: NextComponentType = () => {
               <button
                 onClick={handleToggle}
                 type="button"
-                className="md:hidden block bg-white [box-shadow:0px_1px_3px_0px_rgba(14,18,27,0.12)] rounded-lg p-[6px]"
+                className="md:hidden block bg-white [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_rgba(14,18,27,0.12)] rounded-lg p-[6px]"
               >
                 {navOpen ? (
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
                     fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="text-[#475467] w-7 h-7 inline-block"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
+                      d="M15 5L5 15M5 5L15 15"
+                      stroke="#475467"
+                      strokeWidth="1.66667"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      d="M6 18 18 6M6 6l12 12"
                     />
                   </svg>
                 ) : (
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
                     fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="text-[#475467] w-7 h-7 inline-block"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
+                      d="M3.33301 5H16.6663M3.33301 10H16.6663M3.33301 15H16.6663"
+                      stroke="#475467"
+                      strokeWidth="1.66667"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                     />
                   </svg>
                 )}

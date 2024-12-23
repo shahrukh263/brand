@@ -52,7 +52,7 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em]">
+              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
@@ -92,7 +92,7 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em]">
+              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
@@ -132,7 +132,7 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em]">
+              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
@@ -172,7 +172,7 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em]">
+              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
@@ -212,7 +212,7 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em]">
+              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
@@ -252,7 +252,7 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em]">
+              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
