@@ -22,6 +22,7 @@ const TestimonialComp: NextComponentType = () => {
               Here's what they have to say about Brandwise
             </p>
           </div>
+          <div className="xl:max-w-[1152px] xl:mx-auto">
           <Swiper
             className="mySwiper"
             autoplay={{
@@ -141,6 +142,7 @@ const TestimonialComp: NextComponentType = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+          </div>
         </div>
       </section>
     </>

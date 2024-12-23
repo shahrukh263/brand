@@ -21,9 +21,10 @@ const PlatformComt: NextComponentType = () => {
               one <span className="md:block">place.</span>
             </p>
           </div>
+          <div className="xl:mx-auto xl:max-w-[1152px]">
           <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center">
             <div
-              className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
+              className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
               data-aos="fade-right"
             >
               <div className="lg:pr-12">
@@ -108,11 +109,12 @@ const PlatformComt: NextComponentType = () => {
               </div>
             </div>
             <div
-              className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full md:order-2 order-1"
+              className="sm:px-4 xl:px-0 xl:w-[656px] lg:w-1/2 md:w-1/2 w-full md:order-2 order-1"
               data-aos="fade-left"
             >
               <Image
                 src={ModerationImg}
+                width={656} height={460} objectFit="cover"
                 alt=""
                 className="!block rounded-2xl"
               />
@@ -121,13 +123,13 @@ const PlatformComt: NextComponentType = () => {
           <div className="lg:pt-16 pt-12">
             <div className="flex flex-wrap sm:-mx-4 md:justify-between md:items-center">
               <div
-                className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full"
+                className="sm:px-4 xl:px-0 xl:w-[656px] lg:w-1/2 md:w-1/2 w-full"
                 data-aos="fade-right"
               >
-                <Image src={RepliesImg} alt="" className="!block rounded-2xl" />
+                <Image src={RepliesImg} alt="" width={656} height={460} objectFit="cover" className="!block rounded-2xl" />
               </div>
               <div
-                className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full"
+                className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full"
                 data-aos="fade-left"
               >
                <div className="lg:pl-12">
@@ -218,10 +220,10 @@ const PlatformComt: NextComponentType = () => {
           <div className="lg:pt-16 pt-12">
             <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center">
               <div
-                className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
+                className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
                 data-aos="fade-right"
               >
-                <div className="lg:pr-12">
+                <div className="lg:pr-6">
                 <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                   Discover opportunities with Obie
                 </h4>
@@ -306,12 +308,13 @@ const PlatformComt: NextComponentType = () => {
                 </div>
               </div>
               <div
-                className="sm:px-4 xl:w-1/2 lg:w-1/2 md:w-1/2 w-full md:order-2 order-1"
+                className="sm:px-4 xl:px-0 xl:w-[656px] lg:w-1/2 md:w-1/2 w-full md:order-2 order-1"
                 data-aos="fade-left"
               >
-                <Image src={ObieImg} alt="" className="!block rounded-2xl" />
+                <Image src={ObieImg} width={656} height={460} objectFit="cover" alt="" className="!block rounded-2xl" />
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
