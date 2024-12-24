@@ -103,25 +103,25 @@ const PricingHero = () => {
                     500
                   </span>
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    1000
+                    1,000
                   </span>
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    2500
+                    2,500
                   </span>
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    5000
+                    5,000
                   </span>
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    10000
+                    10,000
                   </span>
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    15000
+                    15,000
                   </span>
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    20000
+                    20,000
                   </span>
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    25000
+                    25,000+
                   </span>
                 </div>
               </div>
@@ -174,7 +174,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
@@ -212,7 +212,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="relative rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="relative pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <span className="absolute right-3 top-3 font-medium tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
                           Recommended
                         </span>
@@ -252,7 +252,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
                             Scale
@@ -288,7 +288,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
@@ -329,7 +329,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
@@ -367,7 +367,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="relative rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="relative pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <span className="absolute right-3 top-3 font-medium tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
                           Recommended
                         </span>
@@ -407,7 +407,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
                             Scale
@@ -443,7 +443,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="rounded-[16px] bg-white py-8 2xl:px-8 xl:px-5 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">

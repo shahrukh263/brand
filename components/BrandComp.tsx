@@ -11,7 +11,7 @@ const BrandComp: NextComponentType = () => {
   return (
     <>
       <section className="pb-16">
-        <div className="innerDiv">
+        <div className="innerDiv xl:max-w-[1152px]">
           <h5 className="text-center text-[#475467] text-xs font-medium tracking-[0.04em] mb-10 uppercase">
             Trusted by hundreds of global brands
           </h5>

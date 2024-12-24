@@ -407,7 +407,11 @@ footer {
 }
 
 .theme-btn {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   box-shadow: 0px 0px 0px 1px #335cff, 0px 1px 2px 0px rgba(14, 18, 27, 0.24);
   border: 1px solid;
   border-image-source: linear-gradient(
@@ -417,7 +421,7 @@ footer {
   );
   border-image-slice: 1;
   position: relative;
-  background-color: #6962FB;
+  background-color: #6962fb;
   // overflow: hidden;
 
   // &::after {
@@ -607,8 +611,14 @@ footer {
       display: block !important;
     }
   }
-  .trial-mobile-btn{
+  .trial-mobile-btn {
     padding-left: 8px;
     padding-right: 8px;
+  }
+}
+@media (max-width: 1320px) and (min-width: 1280px) {
+  .pricing-box {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }

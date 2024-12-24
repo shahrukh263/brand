@@ -20,7 +20,7 @@ const FeaturePlan: NextComponentType = () => {
   return (
     <>
       <section className="lg:py-24 md:py-20 sm:py-16 py-12 bg-[url('../images/feature-bg.png')] md:bg-cover bg-contain">
-        <div className="innerDiv">
+        <div className="innerDiv xl:max-w-[1152px]">
           <h3 data-aos="fade-up" className="md:text-[40px] md:leading-[1] text-[32px] leading-[38px] font-[600] tracking-[-0.02em] text-[#2B2866] text-center md:mb-12 mb-8 inter-display">
             Every feature on every plan
           </h3>

@@ -17,7 +17,8 @@ const FaqComp: NextComponentType = () => {
               you're looking for.
             </p>
           </div>
-          <Accordion data-aos="fade-up" className="accordian-main mx-auto lg:w-8/12 xl:w-7/12 md:w-9/12 w-full">
+          <div className="lg:max-w-[768px] md:mx-auto md:w-9/12">
+          <Accordion data-aos="fade-up" className="accordian-main w-full">
             <AccordionItem initialEntered className={'border-b border-b-[#E4E7EC] mb-7 pb-7'} 
              header={
               <div className="flex justify-between items-center cursor-pointer">
@@ -259,6 +260,7 @@ const FaqComp: NextComponentType = () => {
               </p>
             </AccordionItem>
           </Accordion>
+          </div>
           
         </div>
       </section>
