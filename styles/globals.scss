@@ -622,3 +622,9 @@ footer {
     padding-right: 20px !important;
   }
 }
+.mySwiper .swiper-wrapper{
+  @media (max-width:767px) {
+    align-items: flex-start;
+    
+  }
+}

@@ -16,7 +16,7 @@ const PlatformComt: NextComponentType = () => {
             <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em]">
               Every social platform in one place
             </h3>
-            <p className="text-[16px] font-[400] leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] mx-auto">
+            <p className="md:text-[16px] text-sm font-[400] md:leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] mx-auto">
               Manage conversations, moderate comments, and craft responses from
               one <span className="md:block">place.</span>
             </p>
@@ -28,10 +28,10 @@ const PlatformComt: NextComponentType = () => {
               data-aos="fade-right"
             >
               <div className="lg:pr-12">
-              <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
+              <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                 Boost your ROAS with Automated Moderation
               </h4>
-              <ul className="flex flex-col gap-y-4">
+              <ul className="flex flex-col md:gap-y-4 gap-y-3">
                 <li className="flex gap-x-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const PlatformComt: NextComponentType = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                     Automatically hides negative comments and spam in real-time
                   </span>
                 </li>
@@ -62,7 +62,7 @@ const PlatformComt: NextComponentType = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                     24/7 coverage across ads and organic posts
                   </span>
                 </li>
@@ -79,7 +79,7 @@ const PlatformComt: NextComponentType = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                     Protects your ad spend from trolls
                   </span>
                 </li>
@@ -133,10 +133,10 @@ const PlatformComt: NextComponentType = () => {
                 data-aos="fade-left"
               >
                <div className="lg:pl-12">
-               <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
+               <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                   Drive engagement with AI Generated Replies
                 </h4>
-                <ul className="flex flex-col gap-y-4">
+                <ul className="flex flex-col md:gap-y-4 gap-y-3">
                   <li className="flex gap-x-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                       Trained on custom information about your brand, products
                       or services
                     </span>
@@ -168,7 +168,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                       Consistently accurate, humanlike replies that match your
                       brand's tone
                     </span>
@@ -186,7 +186,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                       Learns and improves the more you use Brandwise over time
                     </span>
                   </li>
@@ -224,10 +224,10 @@ const PlatformComt: NextComponentType = () => {
                 data-aos="fade-right"
               >
                 <div className="lg:pr-6">
-                <h4 className="md:mt-0 mt-5 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
+                <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                   Discover opportunities with Obie
                 </h4>
-                <ul className="flex flex-col gap-y-4">
+                <ul className="flex flex-col md:gap-y-4 gap-y-3">
                   <li className="flex gap-x-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -241,7 +241,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                       AI assistant that performs analysis across thousands of
                       your brand's comments
                     </span>
@@ -259,7 +259,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                       Finds the most common FAQs and concerns in your ad
                       comments
                     </span>
@@ -277,7 +277,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] text-base tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
                       Provides insights on how to improve your marketing and
                       operations
                     </span>

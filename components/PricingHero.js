@@ -10,16 +10,16 @@ const PricingHero = () => {
   const [openTab, setOpenTab] = useState(1);
   return (
     <>
-      <section className="pt-[60px] pb-[60px] md:pt-[100px] md:pb-[100px] relative bg-[url('../images/price-hero-bg.png')] bg-cover bg-bottom">
+      <section className="pt-[60px] pb-[60px] md:pt-24 md:pb-24 relative bg-[url('../images/price-hero-bg.png')] bg-cover bg-bottom">
         <div className="innerDiv">
           <div className="text-center" data-aos="fade-up">
             <h1 className="font-[600] lg:text-[72px] md:text-[60px] text-[40px] md:leading-[1] text-[#2B2866] tracking-[-0.02em] inter-display">
               Simple, transparent pricing
             </h1>
-            <p className="text-[#475467] md:text-base text-sm font-[500] mt-5">
+            <p className="text-[#475467] md:text-base text-sm font-[400] mt-5">
               Every feature and unlimited team members on every plan.
             </p>
-            <p className="text-[#475467] md:text-base text-sm font-[500] mt-1">
+            <p className="text-[#475467] md:text-base text-sm font-[400] mt-1">
               Only pay based on AI usage.
             </p>
           </div>
@@ -45,7 +45,7 @@ const PricingHero = () => {
                   onChange={handleChange}
                 /> */}
 
-                <div className="relative">
+                <div className="relative lg:max-w-[768px] mx-auto">
                   <Range
                     step={1}
                     min={0}
@@ -92,7 +92,7 @@ const PricingHero = () => {
                   />
                 </div>
 
-                <div className="pt-6 flex justify-between md:gap-0 gap-3 md:overflow-x-hidden overflow-x-auto">
+                <div className="pt-6 flex justify-between md:gap-0 gap-3 md:overflow-x-hidden overflow-x-auto lg:max-w-[768px] mx-auto">
                   <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     100
                   </span>
