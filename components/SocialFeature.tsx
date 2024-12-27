@@ -10,8 +10,8 @@ import bulkImg from "../images/bulk-actions-img.png";
 const SocialFeature: NextComponentType = () => {
   return (
     <>
-      <section className="lg:pb-24 md:pb-20 sm:pb-16 pb-12">
-        <div className="innerDiv xl:max-w-[1152px]">
+      <section className="lg:pb-[160px] md:pb-20 sm:pb-16 pb-12">
+        <div className="innerDiv xl:max-w-[1152px] xl:px-0">
           <h4
             data-aos="fade-up"
             className="text-[#2B2866] md:text-[40px] md:leading-10 text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.005em] text-center md:mb-12 mb-8"
@@ -19,10 +19,10 @@ const SocialFeature: NextComponentType = () => {
             Some text goes here
           </h4>
           <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-x-6 gap-y-6">
-            <div className="w-full">
+            <div className="w-full h-full">
               <div
                 data-aos="fade-up"
-                className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)]"
+                className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full"
               >
                 <Image
                   src={analyticsImg}
@@ -42,9 +42,9 @@ const SocialFeature: NextComponentType = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="w-full"
+              className="w-full h-full"
             >
-              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)]">
+              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
                   src={DmMentionsImg}
                   alt=""
@@ -63,9 +63,9 @@ const SocialFeature: NextComponentType = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="w-full"
+              className="w-full h-full"
             >
-              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)]">
+              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
                   src={postViewerImg}
                   alt=""
@@ -84,9 +84,9 @@ const SocialFeature: NextComponentType = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="w-full"
+              className="w-full h-full"
             >
-              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)]">
+              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
                   src={TranslationImg}
                   alt=""
@@ -105,9 +105,9 @@ const SocialFeature: NextComponentType = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="w-full"
+              className="w-full h-full"
             >
-              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)]">
+              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
                   src={BlackListImg}
                   alt=""
@@ -126,9 +126,9 @@ const SocialFeature: NextComponentType = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="w-full"
+              className="w-full h-full"
             >
-              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)]">
+              <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image src={bulkImg} alt="" className="rounded-t-3xl !block" />
                 <div className=" p-6">
                   <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">

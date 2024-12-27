@@ -11,11 +11,11 @@ const BrandComp: NextComponentType = () => {
   return (
     <>
       <section className="pb-16">
-        <div className="innerDiv xl:max-w-[1152px]">
-          <h5 className="text-center text-[#475467] text-xs font-medium tracking-[0.04em] mb-10 uppercase">
+        <div className="innerDiv xl:max-w-[1152px] xl:px-0">
+          <h5 className="text-center text-[#475467] text-xs font-[400] tracking-[0.04em] mb-10 uppercase">
             Trusted by hundreds of global brands
           </h5>
-          <div className="flex flex-col overflow-hidden w-[calc(100vw-48px)] h-[50px] max-w-full xl:max-w-[1152px]">
+          <div className="flex flex-col overflow-hidden h-[50px] max-w-full xl:max-w-[1152px]">
             <div className="relative">
               <span className="absolute left-0 top-0 w-[70px] h-full bg-gradient-to-l to-transparent rotate-180 z-10 from-white"></span>
               <div className="flex items-center animate-slow-infinite-scroll gap-12 mix-blend-darken justify-between">

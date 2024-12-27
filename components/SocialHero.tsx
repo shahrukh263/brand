@@ -14,7 +14,7 @@ const SocialHero: NextComponentType = () => {
             <h1 className="font-[600] inter-display lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] lg:w-9/12 mx-auto">
               Convert more sales with smarter engagement
             </h1>
-            <p className="text-[#475467] md:text-base text-sm tracking-[-0.011em] font-[500] mt-5 mb-8">
+            <p className="text-[#475467] md:text-base text-sm tracking-[-0.011em] font-[400] mt-5 mb-8">
               Moderate comments, manage conversations at scale, and increase
               your sales with AI.
             </p>

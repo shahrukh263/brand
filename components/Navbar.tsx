@@ -12,7 +12,7 @@ const Navbar: NextComponentType = () => {
   };
   return (
     <>
-      <header className="sticky w-full shadow-[0px_1px_4px_0px_#2B28660D] backdrop-filter backdrop-blur-md">
+      <header className="sticky w-full shadow-[0px_1px_4px_0px_#2B28660D] backdrop-filter backdrop-blur-md top-0 z-50 bg-white/[.8]">
         <div className="innerDiv">
           <nav className="md:flex items-center">
             <div className="flex items-center justify-between">

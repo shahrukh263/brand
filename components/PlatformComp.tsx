@@ -16,7 +16,7 @@ const PlatformComt: NextComponentType = () => {
             <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em]">
               Every social platform in one place
             </h3>
-            <p className="text-[16px] font-medium leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] mx-auto">
+            <p className="text-[16px] font-[400] leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] mx-auto">
               Manage conversations, moderate comments, and craft responses from
               one <span className="md:block">place.</span>
             </p>
@@ -120,7 +120,7 @@ const PlatformComt: NextComponentType = () => {
               />
             </div>
           </div>
-          <div className="lg:pt-16 pt-12">
+          <div className="lg:pt-16 pt-12 xl:pt-24">
             <div className="flex flex-wrap sm:-mx-4 md:justify-between md:items-center">
               <div
                 className="sm:px-4 xl:px-0 xl:w-[656px] lg:w-1/2 md:w-1/2 w-full"
@@ -217,7 +217,7 @@ const PlatformComt: NextComponentType = () => {
               </div>
             </div>
           </div>
-          <div className="lg:pt-16 pt-12">
+          <div className="lg:pt-16 pt-12 xl:pt-24">
             <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center">
               <div
                 className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
