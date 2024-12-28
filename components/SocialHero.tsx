@@ -18,9 +18,9 @@ const SocialHero: NextComponentType = () => {
               Moderate comments, manage conversations at scale, and increase
               your sales with AI.
             </p>
-            <div className="flex sm:flex-row flex-col gap-3 justify-center">
+            <div className="flex sm:flex-row flex-col gap-x-5 justify-center">
               <Link href={"#"} passHref>
-                <a className="flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-[10px]">
+                <a className="flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-[10px]">
                   Start Free Trial
                   <svg
                     width="20"
@@ -40,7 +40,7 @@ const SocialHero: NextComponentType = () => {
                 </a>
               </Link>
               <Link href={"#"} passHref>
-                <a className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-medium leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
+                <a className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                   Book a Demo
                 </a>
               </Link>

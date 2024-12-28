@@ -602,14 +602,12 @@ footer {
 }
 @media (max-width: 359px) {
   .logo {
-    & span {
+    & svg {
       height: 22px !important;
       display: block !important;
+      width: 125px !important;
     }
-    & img {
-      height: 22px !important;
-      display: block !important;
-    }
+
   }
   .trial-mobile-btn {
     padding-left: 8px;
