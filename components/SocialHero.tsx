@@ -18,7 +18,7 @@ const SocialHero: NextComponentType = () => {
               Moderate comments, manage conversations at scale, and increase
               your sales with AI.
             </p>
-            <div className="flex sm:flex-row flex-col gap-x-5 justify-center mb-2">
+            <div className="flex sm:flex-row flex-col gap-5 justify-center mb-2">
               <Link href={"#"} passHref>
                 <a className="flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px]">
                   Start Free Trial
