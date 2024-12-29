@@ -570,6 +570,15 @@ footer {
     bottom: -14px;
   }
 }
+@media (max-width: 640px) {
+  .logo {
+    & svg {
+      height: 24px !important;
+      display: block !important;
+      width: 146px !important;
+    }
+  }
+}
 @media (max-width: 359px) {
   .logo {
     & svg {
