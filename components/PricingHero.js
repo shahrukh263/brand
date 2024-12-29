@@ -128,7 +128,7 @@ const PricingHero = () => {
             </div>
             <div className="pb-[48px] mb-[48px] border-b">
               <div className="text-center">
-                <ul className="bg-[#F2F4F7] rounded-[12px] py-[4px] px-[4px] inline-flex items-center gap-[4px] mb-6">
+                <ul className="bg-[#F2F4F7] rounded-[8px] py-[4px] px-[4px] inline-flex items-center gap-[4px] mb-6">
                   <li>
                     <a
                       onClick={(e) => {
@@ -137,7 +137,7 @@ const PricingHero = () => {
                       }}
 
                       className={
-                        "cursor-pointer text-[14px] leading-[20px] font-[500] tracking-[-0.006em] rounded-[12px] py-[6px] px-[12px] inline-block " +
+                        "cursor-pointer text-[14px] leading-[20px] font-[500] tracking-[-0.006em] rounded-[8px] py-[6px] px-[12px] inline-block " +
                         (openTab === 1
                           ? "bg-white text-[#0C111D]"
                           : "text-[#475467]")
@@ -154,7 +154,7 @@ const PricingHero = () => {
                         setOpenTab(2);
                       }}
                       className={
-                        "cursor-pointer text-[14px] leading-[20px] font-[500] tracking-[-0.006em] rounded-[12px] py-[6px] px-[12px] inline-block " +
+                        "cursor-pointer text-[14px] leading-[20px] font-[500] tracking-[-0.006em] rounded-[8px] py-[6px] px-[12px] inline-block " +
                         (openTab === 2
                           ? "bg-white text-[#0C111D]"
                           : "text-[#475467]")
