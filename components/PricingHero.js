@@ -13,7 +13,7 @@ const PricingHero = () => {
       <section className="pt-[60px] pb-[60px] md:pt-24 md:pb-24 relative bg-[url('../images/price-hero-bg.png')] bg-cover bg-bottom">
         <div className="innerDiv">
           <div className="text-center" data-aos="fade-up">
-            <h1 className="font-[600] lg:text-[72px] md:text-[60px] text-[40px] md:leading-[1] text-[#2B2866] tracking-[-0.02em] inter-display">
+            <h1 className="font-[600] lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] inter-display">
               Simple, transparent pricing
             </h1>
             <p className="text-[#475467] md:text-base text-sm font-[400] mt-5">
