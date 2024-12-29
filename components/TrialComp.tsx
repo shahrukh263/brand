@@ -9,7 +9,7 @@ const TrialComp: NextComponentType = () => {
         <div className="innerDiv xl:max-w-[1216px] xl:px-0">
           <div className="overflow-hidden rounded-3xl bg-[url('../images/free-trial-bg.png')] lg:pl-16 md:pl-[42px] md:pr-0 lg:pt-12 pt-10 bg-cover lg:bg-no-repeat bg-center">
             <div className="flex flex-wrap">
-              <div className="lg:w-1/2 w-full md:px-0 px-4">
+              <div className="lg:w-1/2 w-full md:px-0 px-6">
                 <div
                   className="md:text-left text-center md:pr-[47px] md:pl-0"
                   data-aos="fade-right"
