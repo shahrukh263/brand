@@ -7,11 +7,11 @@ const TrialComp: NextComponentType = () => {
     <>
       <section className="">
         <div className="innerDiv xl:max-w-[1216px] xl:px-0">
-          <div className="overflow-hidden rounded-3xl bg-[url('../images/free-trial-bg.png')] lg:pl-16 md:pl-12 md:pr-0 lg:pt-20 pt-10 bg-cover lg:bg-no-repeat bg-center">
+          <div className="overflow-hidden rounded-3xl bg-[url('../images/free-trial-bg.png')] lg:pl-16 md:pl-[42px] md:pr-0 lg:pt-12 pt-10 bg-cover lg:bg-no-repeat bg-center">
             <div className="flex flex-wrap">
               <div className="lg:w-1/2 w-full md:px-0 px-4">
                 <div
-                  className="md:text-left text-center md:pr-[53px] md:pl-0"
+                  className="md:text-left text-center md:pr-[47px] md:pl-0"
                   data-aos="fade-right"
                 >
                   <h3 className="text-[#2B2866] font-[600] inter-display lg:text-[56px] lg:leading-[1] md:text-[42px] sm:text-4xl text-[32px] leading-[38px]">
@@ -52,7 +52,7 @@ const TrialComp: NextComponentType = () => {
               </div>
               <div className="lg:w-1/2 w-full md:pl-0 pl-4">
                 <div className="block-img lg:mt-0 mt-9" data-aos="fade-left">
-                  <Image src={LiveChatImg} width={768} height={455} alt="" />
+                  <Image src={LiveChatImg} width={768} height={495} alt="" />
                 </div>
               </div>
             </div>
