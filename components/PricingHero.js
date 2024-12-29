@@ -60,7 +60,7 @@ const PricingHero = () => {
                           height: "12px",
                           width: "100%",
                           backgroundColor: "#ccc",
-                          borderRadius: "12px",
+                          borderRadius: "8px",
                         }}
                       >
                         {children}
@@ -93,34 +93,34 @@ const PricingHero = () => {
                 </div>
 
                 <div className="pt-6 flex justify-between md:gap-0 gap-3 md:overflow-x-hidden overflow-x-auto lg:max-w-[768px] mx-auto">
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     100
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     250
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     500
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     1,000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     2,500
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     5,000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     10,000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     15,000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     20,000
                   </span>
-                  <span className="flex-shrink-0 text-sm font-medium tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
+                  <span className="flex-shrink-0 text-sm font-[400] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
                     25,000+
                   </span>
                 </div>
@@ -237,7 +237,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn">
+                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
@@ -392,7 +392,7 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn">
+                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">

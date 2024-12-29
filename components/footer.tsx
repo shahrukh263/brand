@@ -19,7 +19,7 @@ const Footer: NextComponentType = () => {
                     <Image src={Logo} alt="" />
                   </a>
                 </Link>
-                <p className="text-[#0C111D] text-base font-medium tracking-[-0.011em] mt-4">
+                <p className="text-[#0C111D] text-base font-[400] tracking-[-0.011em] mt-4">
                   Your AI-powered Brand Manager
                 </p>
               </div>
@@ -46,7 +46,7 @@ const Footer: NextComponentType = () => {
                   </Link>
                 </li>
               </ul>
-              <p className="text-[#475467] text-xs mt-8 md:block hidden">
+              <p className="text-[#475467] text-xs mt-8 md:block hidden font-[300]">
                 © 2024 Brandwise. All Rights Reserved.
               </p>
             </div>

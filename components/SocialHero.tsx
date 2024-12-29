@@ -14,13 +14,13 @@ const SocialHero: NextComponentType = () => {
             <h1 className="font-[600] inter-display lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] lg:w-9/12 mx-auto">
               Convert more sales with smarter engagement
             </h1>
-            <p className="text-[#475467] md:text-base text-sm tracking-[-0.011em] font-[400] mt-5 mb-8">
+            <p className="text-[#475467] md:text-base text-sm tracking-[-0.011em] font-[300] mt-5 mb-8">
               Moderate comments, manage conversations at scale, and increase
               your sales with AI.
             </p>
-            <div className="flex sm:flex-row flex-col gap-x-5 justify-center">
+            <div className="flex sm:flex-row flex-col gap-x-5 justify-center mb-2">
               <Link href={"#"} passHref>
-                <a className="flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-[10px]">
+                <a className="flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px]">
                   Start Free Trial
                   <svg
                     width="20"
