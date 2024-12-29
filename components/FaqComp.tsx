@@ -19,7 +19,7 @@ const FaqComp: NextComponentType = () => {
           </div>
           <div className="w-full">
           <Accordion data-aos="fade-up" className="accordian-main w-full">
-            <AccordionItem initialEntered className={'border-b border-b-[#E4E7EC] mb-7 pb-7'} 
+            <AccordionItem initialEntered className={'border-b border-b-[#E4E7EC] sm:mb-7 sm:pb-7 mb-5 pb-5'} 
              header={
               <div className="flex justify-between items-center cursor-pointer">
                 <h4 className={'text-[#0C111D] sm:text-lg text-base font-[400] tracking-[-0.006em]'}>Is there a free trial available?</h4>
@@ -53,13 +53,13 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2 font-[300] w-[90%]">
+              <p className="text-[#475467] sm:text-base text-sm sm:tracking-[-0.011em] tracking-[-0.006em] mt-2 font-[300] w-[90%]">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
               </p>
             </AccordionItem>
-            <AccordionItem className={'border-b border-b-[#E4E7EC] mb-7 pb-7'} 
+            <AccordionItem className={'border-b border-b-[#E4E7EC] sm:mb-7 sm:pb-7 mb-5 pb-5'} 
              header={
               <div className="flex justify-between items-center cursor-pointer">
                 <h4 className={'text-[#0C111D] sm:text-lg text-base font-font-[400] tracking-[-0.006em] text-left'}>Can I change my plan later?</h4>
@@ -93,13 +93,13 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2 font-[300] w-[90%]">
+              <p className="text-[#475467] sm:text-base text-sm sm:tracking-[-0.011em] tracking-[-0.006em] mt-2 font-[300] w-[90%]">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
               </p>
             </AccordionItem>
-            <AccordionItem className={'border-b border-b-[#E4E7EC] mb-7 pb-7'} 
+            <AccordionItem className={'border-b border-b-[#E4E7EC] sm:mb-7 sm:pb-7 mb-5 pb-5'} 
              header={
               <div className="flex justify-between items-center cursor-pointer">
                 <h4 className={'text-[#0C111D] sm:text-lg text-base font-font-[400] tracking-[-0.006em] text-left'}>What is your cancellation policy?</h4>
@@ -133,13 +133,13 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2 font-[300] w-[90%]">
+              <p className="text-[#475467] sm:text-base text-sm sm:tracking-[-0.011em] tracking-[-0.006em] mt-2 font-[300] w-[90%]">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
               </p>
             </AccordionItem>
-            <AccordionItem className={'border-b border-b-[#E4E7EC] mb-7 pb-7'} 
+            <AccordionItem className={'border-b border-b-[#E4E7EC] sm:mb-7 sm:pb-7 mb-5 pb-5'} 
              header={
               <div className="flex justify-between items-center cursor-pointer">
                 <h4 className={'text-[#0C111D] sm:text-lg text-base font-font-[400] tracking-[-0.006em] text-left'}>Can other info be added to an invoice?</h4>
@@ -173,13 +173,13 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2 font-[300] w-[90%]">
+              <p className="text-[#475467] sm:text-base text-sm sm:tracking-[-0.011em] tracking-[-0.006em] mt-2 font-[300] w-[90%]">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
               </p>
             </AccordionItem>
-            <AccordionItem className={'border-b border-b-[#E4E7EC] mb-7 pb-7'} 
+            <AccordionItem className={'border-b border-b-[#E4E7EC] sm:mb-7 sm:pb-7 mb-5 pb-5'} 
              header={
               <div className="flex justify-between items-center cursor-pointer">
                 <h4 className={'text-[#0C111D] sm:text-lg text-base font-font-[400] tracking-[-0.006em] text-left'}>How does billing work?</h4>
@@ -213,13 +213,13 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2 font-[300] w-[90%]">
+              <p className="text-[#475467] sm:text-base text-sm sm:tracking-[-0.011em] tracking-[-0.006em] mt-2 font-[300] w-[90%]">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
               </p>
             </AccordionItem>
-            <AccordionItem className={'border-b border-b-[#E4E7EC] mb-7 pb-7'} 
+            <AccordionItem className={''} 
              header={
               <div className="flex justify-between items-center cursor-pointer">
                 <h4 className={'text-[#0C111D] sm:text-lg text-base font-font-[400] tracking-[-0.006em] text-left'}>How do I change my account email?</h4>
@@ -253,7 +253,7 @@ const FaqComp: NextComponentType = () => {
                   </svg>
               </div>
             }>
-              <p className="text-[#475467] sm:text-base text-sm tracking-[-0.011em] mt-2 font-[300] w-[90%]">
+              <p className="text-[#475467] sm:text-base text-sm sm:tracking-[-0.011em] tracking-[-0.006em] mt-2 font-[300] w-[90%]">
                 Yes, you can try us for free for 30 days. If you want, we’ll
                 provide you with a free, personalized 30-minute onboarding call
                 to get you up and running as soon as possible.
