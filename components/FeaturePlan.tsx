@@ -27,7 +27,7 @@ const FeaturePlan: NextComponentType = () => {
           <div className="flex flex-wrap lg:gap-6 gap-4 justify-center">
             {/* <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={HelpDeskIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Help desk inbox (email + livechat)
               </span>
             </div> */}
@@ -57,7 +57,7 @@ const FeaturePlan: NextComponentType = () => {
             </div>
             {/* <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={LiveChatIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Live chat widget customization
               </span>
             </div> */}
@@ -117,7 +117,7 @@ const FeaturePlan: NextComponentType = () => {
             </div>
             {/* <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={ShopifyIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[300] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Shopify integration
               </span>
             </div> */}

@@ -8,7 +8,7 @@ const SocialHero: NextComponentType = () => {
       <section className="mb-12 pt-12 md:pt-20 relative bg-[url('../images/social-hero-bg.png')] bg-cover bg-no-repeat bg-bottom">
         <div className="innerDiv">
           <div className="text-center" data-aos="fade-up">
-            {/* <p className="uppercase text-xs font-medium tracking-[0.04em] text-[#5650CD] mb-8">
+            {/* <p className="uppercase text-xs font-[400] tracking-[0.04em] text-[#5650CD] mb-8">
               ai-powered social inbox
             </p> */}
             <h1 className="font-[600] inter-display lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] lg:w-9/12 mx-auto">

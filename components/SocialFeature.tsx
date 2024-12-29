@@ -33,7 +33,7 @@ const SocialFeature: NextComponentType = () => {
                   <h4 className="text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     Analytics
                   </h4>
-                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
+                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] font-[400]">
                     In-depth analytics across all social pages and individual
                     team members.
                   </p>
@@ -54,7 +54,7 @@ const SocialFeature: NextComponentType = () => {
                   <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     DMs & Mentions
                   </h4>
-                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
+                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] font-[400]">
                     Monitor comments, mentions, and DMs across every platform in
                     one place.
                   </p>
@@ -75,7 +75,7 @@ const SocialFeature: NextComponentType = () => {
                   <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     Post Viewer
                   </h4>
-                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
+                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] font-[400]">
                     View the full post and comment threads without switching
                     apps.
                   </p>
@@ -96,7 +96,7 @@ const SocialFeature: NextComponentType = () => {
                   <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     2-way Translation
                   </h4>
-                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
+                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] font-[400]">
                     Automatically translate incoming comments and replies to any
                     language.
                   </p>
@@ -117,7 +117,7 @@ const SocialFeature: NextComponentType = () => {
                   <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em] inter-display">
                     Blacklist
                   </h4>
-                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] inter-display">
+                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] font-[400]">
                     Automatically hide comments containing certain words or
                     phrases.
                   </p>
@@ -134,7 +134,7 @@ const SocialFeature: NextComponentType = () => {
                   <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">
                     Bulk Actions
                   </h4>
-                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em]">
+                  <p className="mt-3 text-[#475467] text-base tracking-[-0.011em] font-[400]">
                     Select several comments and perform bulk actions.
                   </p>
                 </div>

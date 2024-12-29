@@ -213,7 +213,7 @@ const PricingHero = () => {
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
                       <div className="relative pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
-                        <span className="absolute right-3 top-3 font-medium tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
+                        <span className="absolute right-3 top-3 font-[400] tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
                           Recommended
                         </span>
                         <div className="mb-6">
@@ -368,7 +368,7 @@ const PricingHero = () => {
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
                       <div className="relative pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
-                        <span className="absolute right-3 top-3 font-medium tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
+                        <span className="absolute right-3 top-3 font-[400] tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
                           Recommended
                         </span>
                         <div className="mb-6">
@@ -486,7 +486,7 @@ const PricingHero = () => {
                 Have questions or want to build a custom plan for your store?
               </h4>
               <Link href={"#"} passHref>
-                <a className="inline-block p-[10px] rounded-lg text-[#475467] text-[14px] font-medium leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
+                <a className="inline-block p-[10px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                   Contact Sales
                 </a>
               </Link>

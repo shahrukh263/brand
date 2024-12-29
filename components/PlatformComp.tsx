@@ -45,7 +45,7 @@ const PlatformComt: NextComponentType = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                     Automatically hides negative comments and spam in real-time
                   </span>
                 </li>
@@ -62,7 +62,7 @@ const PlatformComt: NextComponentType = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                     24/7 coverage across ads and organic posts
                   </span>
                 </li>
@@ -79,14 +79,14 @@ const PlatformComt: NextComponentType = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                  <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                     Protects your ad spend from trolls
                   </span>
                 </li>
               </ul>
               <div className="md:mt-8 mt-6">
                 <Link href={"#"} passHref>
-                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px] min-h-[40px]">
                     Start Free Trial
                     <svg
                     width="20"
@@ -150,7 +150,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                       Trained on custom information about your brand, products
                       or services
                     </span>
@@ -168,7 +168,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                       Consistently accurate, humanlike replies that match your
                       brand's tone
                     </span>
@@ -186,14 +186,14 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                       Learns and improves the more you use Brandwise over time
                     </span>
                   </li>
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px] min-h-[40px]">
                     Start Free Trial
                     <svg
                     width="20"
@@ -241,7 +241,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                       AI assistant that performs analysis across thousands of
                       your brand's comments
                     </span>
@@ -259,7 +259,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                       Finds the most common FAQs and concerns in your ad
                       comments
                     </span>
@@ -277,7 +277,7 @@ const PlatformComt: NextComponentType = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em]">
+                    <span className="text-[#0C111D] md:text-base text-sm tracking-[-0.011em] font-[400]">
                       Provides insights on how to improve your marketing and
                       operations
                     </span>
@@ -285,7 +285,7 @@ const PlatformComt: NextComponentType = () => {
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[10px] pl-[14px] pr-[10px] theme-btn rounded-lg border-[1px] border-[solid] [border-image-source:linear-gradient(180deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] [box-shadow:0px_0px_0px_1px_#335CFF,_0px_1px_2px_0px_#0E121B3D]">
+                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px] min-h-[40px]">
                     Start Free Trial
                     <svg
                     width="20"

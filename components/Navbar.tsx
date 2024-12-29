@@ -77,7 +77,7 @@ const Navbar: NextComponentType = () => {
               </Link>
               <div className="md:hidden block">
                 <Link href={"#"} passHref>
-                  <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg trial-mobile-btn">
+                  <a className="inline-block text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg trial-mobile-btn">
                     Start Free Trial
                   </a>
                 </Link>
