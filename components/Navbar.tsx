@@ -77,7 +77,7 @@ const Navbar: NextComponentType = () => {
               </Link>
               <div className="md:hidden block">
                 <Link href={"#"} passHref>
-                  <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg trial-mobile-btn">
+                  <a className="inline-block text-[14px] font-medium leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg trial-mobile-btn h-8">
                     Start Free Trial
                   </a>
                 </Link>
@@ -189,14 +189,14 @@ const Navbar: NextComponentType = () => {
               <ul className="flex gap-4">
                 <li>
                   <Link href={"#"} passHref>
-                    <a className="inline-block px-[10px] py-[6px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
+                    <a className="inline-block px-[10px] py-[6px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white h-8">
                       Log In
                     </a>
                   </Link>
                 </li>
                 <li className="md:block hidden">
                   <Link href={"#"} passHref>
-                    <a className="theme-btn inline-block text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg">
+                    <a className="theme-btn inline-block text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg h-8">
                       Start Free Trial
                     </a>
                   </Link>
