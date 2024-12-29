@@ -177,32 +177,32 @@ const PricingHero = () => {
                         className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Start
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for personal use
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] tracking-[-0.02em] leading-[1] inter-display">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] tracking-[-0.02em] leading-[1] inter-display">
                             $49
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             5,000 AI monthly credits
                           </span>
                         </div>
@@ -217,32 +217,32 @@ const PricingHero = () => {
                           Recommended
                         </span>
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Pro
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for small teams
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] inter-display tracking-[-0.02em] leading-[1]">
                             $99
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
+                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             10,000 AI monthly credits
                           </span>
                         </div>
@@ -254,32 +254,32 @@ const PricingHero = () => {
                     >
                       <div className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Scale
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for mid-sized teams
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] inter-display tracking-[-0.02em] leading-[1]">
                             $179
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             20,000 AI monthly credits
                           </span>
                         </div>
@@ -291,32 +291,32 @@ const PricingHero = () => {
                         className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Enterprise
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for many large teams
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] inter-display tracking-[-0.02em] leading-[1]">
                             $269
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             30,000 AI monthly credits
                           </span>
                         </div>
@@ -332,32 +332,32 @@ const PricingHero = () => {
                         className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Start
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for personal use
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] inter-display tracking-[-0.02em] leading-[1]">
                             $49
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             5,000 AI monthly credits
                           </span>
                         </div>
@@ -372,32 +372,32 @@ const PricingHero = () => {
                           Recommended
                         </span>
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Pro
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for small teams
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] inter-display tracking-[-0.02em] leading-[1]">
                             $99
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
+                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             10,000 AI monthly credits
                           </span>
                         </div>
@@ -409,32 +409,32 @@ const PricingHero = () => {
                     >
                       <div className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Scale
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for mid-sized teams
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] inter-display tracking-[-0.02em] leading-[1]">
                             $179
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             20,000 AI monthly credits
                           </span>
                         </div>
@@ -446,32 +446,32 @@ const PricingHero = () => {
                         className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
-                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-medium tracking-[-0.006em] mb-1 leading-[28px]">
+                          <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Enterprise
                           </h4>
-                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px]">
+                          <p className="text-[rgba(71,84,103,1)] text-[14px] tracking-[-0.006em] leading-[20px] font-[300]">
                             Best for many large teams
                           </p>
                         </div>
                         <div className="flex gap-[8px] mb-6">
-                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[600] inter-display tracking-[-0.02em] leading-[1]">
+                          <h2 className="text-[#2B2866] xl:text-[40px] text-[36px] font-[500] inter-display tracking-[-0.02em] leading-[1]">
                             $269
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[500] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
                               Billed monthly
                             </p>
                           </div>
                         </div>
-                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-medium leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
+                        <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] justify-center">
                           <Image src={DataIcon} alt="" />
-                          <span className="text-[16px] text-[#0C111D] font-[500] tracking-[-0.017em] leading-[24px]">
+                          <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             30,000 AI monthly credits
                           </span>
                         </div>
