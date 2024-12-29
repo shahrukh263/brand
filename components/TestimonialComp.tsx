@@ -14,7 +14,7 @@ const TestimonialComp: NextComponentType = () => {
     <>
       <section className='lg:pt-24 lg:pb-24 md:py-20 sm:py-16 py-12 bg-[url("../images/bg-testimonial.png")] bg-cover bg-top'>
         <div className="innerDiv">
-          <div className="text-center md:mb-16 mb-8" data-aos="fade-up">
+          <div className="text-center md:mb-12 mb-4" data-aos="fade-up">
             <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em] 2xl:w-7/12 xl:w-[62%] lg:w-8/12 md:w-10/12 sm:w-10/12 mx-auto">
               Trusted by fast growing companies around the world
             </h3>
@@ -25,11 +25,11 @@ const TestimonialComp: NextComponentType = () => {
           <div className="xl:max-w-[1152px] xl:mx-auto">
           <Swiper
             className="mySwiper"
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            modules={[Autoplay]}
+            // autoplay={{
+            //   delay: 2500,
+            //   disableOnInteraction: false,
+            // }}
+            // modules={[Autoplay]}
             breakpoints={{
               // when window width is >= 640px
               320: {
@@ -53,7 +53,7 @@ const TestimonialComp: NextComponentType = () => {
             }}
           >
             <SwiperSlide>
-              <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8">
+              <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8 my-4 h-full">
                 <Image src={PowerSurgeLogo} alt="" />
                 <p className="text-[#475467] text-base tracking-[-0.011em] mt-3">
                   Brandwise has been a lifesaver for our team—everything we need
@@ -88,7 +88,7 @@ const TestimonialComp: NextComponentType = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8  my-4">
+              <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8  my-4 h-full">
                 <Image src={StackedLogo} alt="" width={132} height={32} />
                 <p className="text-[#475467] text-base mt-3">
                   Our workflow has improved dramatically since we started using
@@ -116,7 +116,7 @@ const TestimonialComp: NextComponentType = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8">
+              <div className="bg-white border border-[rgba(228,231,236,1)] shadow-[0px_4px_6px_-2px_rgba(16,24,40,0.02),_0px_12px_16px_-4px_rgba(16,24,40,0.04)] rounded-2xl p-8 my-4 h-full">
                 <Image src={GoodwellLogo} alt="" />
                 <p className="text-[#475467] text-base tracking-[-0.011em] mt-3">
                   Brandwise is our secret weapon for staying ahead of deadlines.

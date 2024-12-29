@@ -17,7 +17,7 @@ const TrialComp: NextComponentType = () => {
                   <h3 className="text-[#2B2866] font-[600] inter-display lg:text-[56px] lg:leading-[1] md:text-[42px] sm:text-4xl text-[32px] leading-[38px]">
                     Get started with Brandwise today
                   </h3>
-                  <p className="text-[#475467] md:mt-5 mt-4 lg:mb-8 mb-5 md:text-lg text-sm font-[400] xl:w-[89%]">
+                  <p className="text-[#475467] md:mt-5 mt-4 mb-8 md:text-lg text-sm font-[400] xl:w-[89%]">
                     Try Brandwise free for 7 days—you'll have access to every
                     feature. Cancel any time.
                   </p>
@@ -52,7 +52,7 @@ const TrialComp: NextComponentType = () => {
               </div>
               <div className="lg:w-1/2 w-full md:pl-0 pl-4">
                 <div className="block-img lg:mt-0 mt-9" data-aos="fade-left">
-                  <Image src={LiveChatImg} width={768} height={467} alt="" />
+                  <Image src={LiveChatImg} width={768} height={455} alt="" />
                 </div>
               </div>
             </div>
