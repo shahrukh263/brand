@@ -1,13 +1,51 @@
+"use-client";
 import DataIcon from "../images/database-icon.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import * as React from "react";
 import { Range } from "react-range";
+import { useWindowSize } from "../hooks/useWIndowSize";
+const formatter = new Intl.NumberFormat("en-US");
 
+const SLABS = [
+  { slab: 5, value: 100, mobile: true },
+  { slab: 15, value: 250 },
+  { slab: 25, value: 500 },
+  { slab: 35, value: 1000 },
+  { slab: 45, value: 2500, mobile: true },
+  { slab: 55, value: 5000 },
+  { slab: 65, value: 10000 },
+  { slab: 75, value: 15000, mobile: true },
+  { slab: 85, value: 20000 },
+  { slab: 95, value: 25000, mobile: true },
+];
+const getRange = (value) => {
+  const currentSlabIndex = SLABS.findIndex(({ slab }) => value <= slab);
+  const previousSlabValue = SLABS[currentSlabIndex - 1]?.value || 0;
+  const currentSlabValue = SLABS[currentSlabIndex]?.value || SLABS.at(-1).value;
+  const currentSlab = SLABS[currentSlabIndex]?.slab || SLABS.at(-1).slab;
+  const totalSteps = currentSlab === 5 ? 5 : 10;
+  let remainder =
+    currentSlab === 5
+      ? value
+      : value - ((SLABS[currentSlabIndex]?.slab || SLABS.at(-1).slab) - 10);
+  const valuePerRemainder = (currentSlabValue - previousSlabValue) / totalSteps;
+
+  return previousSlabValue + valuePerRemainder * remainder;
+};
+const convertValueToSlab = (value) => {
+  const slabIndex = SLABS.findIndex((slab) => value <= slab.value);
+  const slab = SLABS[slabIndex];
+  return slab.slab;
+};
 const PricingHero = () => {
-  const [values, setValues] = useState([10000]);
+  const [values, setValues] = useState([convertValueToSlab(2500)]);
   const [openTab, setOpenTab] = useState(1);
+  const { width } = useWindowSize();
+  const IS_DESKTOP = width >= 768;
+  const currentSlabIndex = SLABS.findIndex(({ slab }) => values[0] <= slab);
+  const IS_MAX_TICKETS_SELECTED = values[0] >= SLABS.at(-1).slab;
   return (
     <>
       <section className="pt-[60px] pb-[60px] md:pt-24 md:pb-24 relative bg-[url('../images/price-hero-bg.png')] bg-cover bg-bottom">
@@ -28,9 +66,14 @@ const PricingHero = () => {
               data-aos="fade-up"
               className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display"
             >
-              I have{" "}
+              I have
               <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px] min-w-[93px] inline-block">
-                {values}
+                {formatter.format(
+                  getRange(
+                    IS_MAX_TICKETS_SELECTED ? SLABS.at(-1).slab : values[0]
+                  )
+                )}
+                {IS_MAX_TICKETS_SELECTED && "+"}
               </span>{" "}
               support tickets per month on average
             </h2>
@@ -49,11 +92,12 @@ const PricingHero = () => {
                   <Range
                     step={1}
                     min={0}
-                    max={25000}
+                    max={100}
                     values={values}
                     onChange={(values) => setValues(values)}
                     renderTrack={({ props, children }) => (
-                      <div className="thumb-slider"
+                      <div
+                        className="thumb-slider"
                         {...props}
                         style={{
                           ...props.style,
@@ -67,7 +111,7 @@ const PricingHero = () => {
                         <div
                           className="absolute left-0 selected-area"
                           style={{
-                            width: ((values / 25000) * 100).toFixed(2) + "%",
+                            width: ((values / 100) * 100).toFixed(2) + "%",
                           }}
                         ></div>
                         {/* <div className="absolute top-5" style={{left:((values/25000) * 100).toFixed(2)-2 + "%"}}>{values}</div> */}
@@ -92,37 +136,19 @@ const PricingHero = () => {
                   />
                 </div>
 
-                <div className="pt-6 flex justify-between md:gap-0 gap-3 md:overflow-x-hidden overflow-x-auto lg:max-w-[768px] mx-auto">
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    100
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    250
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    500
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    1,000
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    2,500
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#98A2B3] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    5,000
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    10,000
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    15,000
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    20,000
-                  </span>
-                  <span className="flex-shrink-0 text-sm font-[500] tracking-[-0.006em] text-[#0C111D] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[20px]">
-                    25,000+
-                  </span>
+                <div className="pt-6 flex justify-between overflow-x-auto lg:max-w-[768px] mx-auto">
+                  {SLABS.map(({ value, mobile }, i) => (
+                    <span
+                      className={`w-[100px] text-center text-[11px] md:text-[14px] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[27px] ${
+                        i < currentSlabIndex || currentSlabIndex === -1
+                          ? "text-[#98A2B3]"
+                          : ""
+                      }`}
+                    >
+                      {mobile || IS_DESKTOP ? formatter.format(value) : null}
+                      {i === SLABS.length - 1 && "+"}
+                    </span>
+                  ))}
                 </div>
               </div>
             </div>
@@ -135,14 +161,12 @@ const PricingHero = () => {
                         e.preventDefault();
                         setOpenTab(1);
                       }}
-
                       className={
                         "cursor-pointer text-[14px] leading-[20px] font-[500] tracking-[-0.006em] rounded-[8px] py-[6px] px-[12px] inline-block " +
                         (openTab === 1
                           ? "bg-white text-[#0C111D]"
                           : "text-[#475467]")
                       }
-                    
                     >
                       Monthly{" "}
                     </a>
