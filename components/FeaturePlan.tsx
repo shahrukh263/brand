@@ -33,25 +33,25 @@ const FeaturePlan: NextComponentType = () => {
             </div> */}
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={SocialInboxIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Social inbox (FB, IG, TikTok)
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={CommentIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 AI Comment Moderation
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={AiReplyIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 AI Replies
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={ObiIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Obie Insights + Chat
               </span>
             </div>
@@ -63,55 +63,55 @@ const FeaturePlan: NextComponentType = () => {
             </div> */}
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={SmartLabelsIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Smart Labels
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={AiSummaryIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 AI Summaries
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={AutomationsIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Automations
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={KeywordBlacklistIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Keyword blacklist
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={OrganizationIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Organization Analytics
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={TeamAnalyticsIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Team Analytics
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={MultilingualIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Multilingual Support
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={TeamMemberIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Unlimited team members
               </span>
             </div>
             <div data-aos="fade-up" className="py-2 px-[10px] rounded-xl bg-white border border-[#D0D5DD] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex items-center gap-x-1">
               <Image src={TeamCollaborationIcon} alt="" />
-              <span className="md:text-base font-medium text-sm tracking-[-0.011em] text-center text-[#0C111D]">
+              <span className="md:text-base font-[400] text-sm tracking-[-0.011em] text-center text-[#0C111D]">
                 Team collaboration
               </span>
             </div>
