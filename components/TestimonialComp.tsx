@@ -2,8 +2,8 @@ import type { NextComponentType } from "next";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import PowerSurgeLogo from "../images/powersurge-logo.svg";
-import StackedLogo from "../images/stacked-lab-logo.png";
-import GoodwellLogo from "../images/goodwell-logo.png";
+import StackedLogo from "../images/stacked-lab-logo.svg";
+import GoodwellLogo from "../images/goodwell-logo.svg";
 import UserImg from "../images/user-img.png";
 // Import Swiper styles
 import "swiper/css";
