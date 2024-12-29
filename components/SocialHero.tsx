@@ -1,5 +1,6 @@
 import type { NextComponentType } from "next";
 import HeroImg from "../images/social-hero-img.png";
+import HeroMobileImg from "../images/social-hero-mobile-img.png";
 import Image from "next/image";
 import Link from "next/link";
 const SocialHero: NextComponentType = () => {
@@ -48,7 +49,12 @@ const SocialHero: NextComponentType = () => {
           </div>
         </div>
         <div data-aos="fade-up">
-          <Image src={HeroImg} alt="" />
+          <div className="sm:block hidden">
+            <Image src={HeroImg} alt="" />
+          </div>
+          <div className="sm:hidden block">
+            <Image src={HeroMobileImg} alt="" />
+          </div>
         </div>
       </section>
     </>
