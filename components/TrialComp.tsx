@@ -21,7 +21,7 @@ const TrialComp: NextComponentType = () => {
                     Try Brandwise free for 7 days—you'll have access to every
                     feature. Cancel any time.
                   </p>
-                  <div className="flex sm:flex-row flex-col gap-3">
+                  <div className="flex sm:flex-row flex-col gap-5">
                     <Link href={"#"} passHref>
                       <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px]">
                         Start Free Trial
