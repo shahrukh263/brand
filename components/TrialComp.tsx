@@ -2,12 +2,13 @@ import type { NextComponentType } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import LiveChatImg from "../images/Live-Chat-img.png";
+import LiveChatIMobilemg from "../images/Live-Chat-mobile-img.png";
 const TrialComp: NextComponentType = () => {
   return (
     <>
       <section className="">
         <div className="innerDiv xl:max-w-[1216px] xl:px-0">
-          <div className="overflow-hidden rounded-3xl bg-[url('../images/free-trial-bg.png')] lg:pl-16 md:pl-[42px] md:pr-0 lg:pt-12 pt-10 bg-cover lg:bg-no-repeat bg-center">
+          <div className="overflow-hidden rounded-3xl sm:bg-[url('../images/free-trial-bg.png')] bg-[url('../images/free-trial-mobile-bg.png')] lg:pl-16 md:pl-[42px] md:pr-0 lg:pt-12 pt-10 bg-cover lg:bg-no-repeat bg-center">
             <div className="flex flex-wrap">
               <div className="lg:w-1/2 w-full md:px-0 px-6">
                 <div
@@ -50,9 +51,16 @@ const TrialComp: NextComponentType = () => {
                   </div>
                 </div>
               </div>
-              <div className="lg:w-1/2 w-full md:pl-0 pl-4">
-                <div className="block-img lg:mt-0 mt-9" data-aos="fade-left">
-                  <Image src={LiveChatImg} width={768} height={495} alt="" />
+              <div className="lg:w-1/2 w-full md:pl-0 pl-5">
+                <div className="sm:block hidden">
+                  <div className="block-img lg:mt-0 mt-9" data-aos="fade-left">
+                    <Image src={LiveChatImg} width={768} height={495} alt="" />
+                  </div>
+                </div>
+                <div className="sm:hidden block">
+                  <div className="block-img lg:mt-0 mt-9" data-aos="fade-left">
+                    <Image src={LiveChatIMobilemg} width={768} height={495} alt="" />
+                  </div>
                 </div>
               </div>
             </div>

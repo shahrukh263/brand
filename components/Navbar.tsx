@@ -12,10 +12,10 @@ const Navbar: NextComponentType = () => {
   };
   return (
     <>
-      <header className="sticky w-full shadow-[0px_1px_4px_0px_#2B28660D] backdrop-filter backdrop-blur-md top-0 z-50 bg-white/[.8]">
-        <div className="innerDiv">
+      <header className="sticky w-full shadow-[0px_1px_4px_0px_#2B28660D] backdrop-filter backdrop-blur-[6px] top-0 z-50 bg-white/[.9]">
+        <div className="innerDiv 2xl:px-[0!important] xl:px-[80px!important] lg:px-[20px!important] md:px-[30px!important] !px-0">
           <nav className="md:flex items-center">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between md:px-0 px-5">
               <Link href={"/"} passHref>
                 <a className="inline-block py-[19px] logo">
                   <svg
@@ -75,7 +75,7 @@ const Navbar: NextComponentType = () => {
                   </svg>
                 </a>
               </Link>
-              <div className="md:hidden block">
+              <div className="md:hidden block ml-auto">
                 <Link href={"#"} passHref>
                   <a className="inline-block text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg trial-mobile-btn">
                     Start Free Trial
@@ -85,7 +85,7 @@ const Navbar: NextComponentType = () => {
               <button
                 onClick={handleToggle}
                 type="button"
-                className="md:hidden block bg-white [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_rgba(14,18,27,0.12)] rounded-lg p-[6px]"
+                className="md:hidden block bg-white [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_rgba(14,18,27,0.12)] rounded-lg p-[6px] ml-4 toggle-btn"
               >
                 {navOpen ? (
                   <svg
@@ -124,14 +124,14 @@ const Navbar: NextComponentType = () => {
             </div>
             <div
               className={
-                "md:items-center w-full md:flex-row flex-col" +
+                "md:items-center w-full md:flex-row flex-col md:bg-transparent bg-white md:px-0 px-5 border border-[#E4E7EC] md:shadow-none [box-shadow:0px_4px_6px_-2px_rgba(16,24,40,.03),_0px_12px_16px_-4px_rgba(16,24,40,.08)] md:border-0 " +
                 (navOpen ? " flex" : " md:flex hidden")
               }
             >
               <ul className="md:flex md:mx-auto gap-x-7">
                 <li>
                   <Link href={"#"} passHref>
-                    <a className="inline-flex items-center py-[22px] text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
+                    <a className="inline-flex items-center md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Product{" "}
                       {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -152,21 +152,21 @@ const Navbar: NextComponentType = () => {
                 </li>
                 <li>
                   <Link href={"/pricing"} passHref>
-                    <a className="inline-block py-[22px] text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
+                    <a className="inline-block md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Pricing
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href={"#"} passHref>
-                    <a className="inline-block py-[22px] text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
+                    <a className="inline-block md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Roadmap
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href={"#"} passHref>
-                    <a className="inline-flex items-center py-[22px] text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
+                    <a className="inline-flex items-center md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Resources{" "}
                       {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +189,7 @@ const Navbar: NextComponentType = () => {
               <ul className="flex gap-4">
                 <li>
                   <Link href={"#"} passHref>
-                    <a className="inline-block px-[10px] py-[6px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
+                    <a className="inline-block md:px-[10px] md:py-[6px] py-4 md:rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] md:[box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] md:bg-white">
                       Log In
                     </a>
                   </Link>

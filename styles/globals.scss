@@ -322,11 +322,6 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-
-  header .innerDiv {
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
 }
 
 /* Tablet (sm)  */
@@ -334,11 +329,6 @@
   .innerDiv {
     padding-left: 60px;
     padding-right: 60px;
-  }
-
-  header .innerDiv {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
 
@@ -348,11 +338,6 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-
-  header .innerDiv {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
 }
 
 /* Desktop (lg) */
@@ -360,11 +345,6 @@
   .innerDiv {
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  header .innerDiv {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 }
 
@@ -376,11 +356,6 @@
     padding-left: 80px;
     padding-right: 80px;
   }
-
-  header .innerDiv {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
 }
 
 /* Desktop (2xl)  */
@@ -390,11 +365,6 @@
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
-  }
-
-  header .innerDiv {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 }
 
@@ -607,11 +577,13 @@ footer {
       display: block !important;
       width: 125px !important;
     }
-
   }
   .trial-mobile-btn {
     padding-left: 8px;
     padding-right: 8px;
+  }
+  .toggle-btn {
+    margin-left: 8px;
   }
 }
 @media (max-width: 1320px) and (min-width: 1280px) {
@@ -620,9 +592,8 @@ footer {
     padding-right: 20px !important;
   }
 }
-.mySwiper .swiper-wrapper{
-  @media (max-width:767px) {
+.mySwiper .swiper-wrapper {
+  @media (max-width: 767px) {
     align-items: flex-start;
-    
   }
 }
