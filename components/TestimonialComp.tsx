@@ -12,7 +12,7 @@ import { Autoplay } from "swiper";
 const TestimonialComp: NextComponentType = () => {
   return (
     <>
-      <section className='lg:pt-24 lg:pb-24 md:py-20 sm:py-16 py-12 sm:bg-[url("../images/bg-testimonial.png")] bg-[url("../images/bg-testimonial-mobile.png")] bg-cover md:bg-top bg-bottom bg-no-repeat'>
+      <section className='lg:pt-24 lg:pb-24 md:py-20 sm:py-16 py-8 sm:bg-[url("../images/bg-testimonial.png")] bg-[url("../images/bg-testimonial-mobile.png")] bg-cover md:bg-top bg-bottom bg-no-repeat'>
         <div className="innerDiv">
           <div className="text-center md:mb-12 mb-4" data-aos="fade-up">
             <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em] 2xl:w-7/12 xl:w-[62%] lg:w-8/12 md:w-10/12 sm:w-10/12 mx-auto">
