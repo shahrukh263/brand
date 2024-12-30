@@ -66,7 +66,7 @@ const PricingHero = () => {
               data-aos="fade-up"
               className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display"
             >
-              I have {" "}
+              I have{" "}
               <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px] min-w-[93px] inline-block">
                 {formatter.format(
                   getRange(
@@ -88,7 +88,7 @@ const PricingHero = () => {
                   onChange={handleChange}
                 /> */}
 
-                <div className="relative lg:max-w-[768px] mx-auto">
+                <div className="relative lg:max-w-[768px] mx-auto z-10">
                   <Range
                     step={1}
                     min={0}
@@ -140,7 +140,7 @@ const PricingHero = () => {
                   {SLABS.map(({ value, mobile }, i) => (
                     <span
                       key={value}
-                      className={`w-[100px] text-center text-[11px] md:text-[14px] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[27px] ${
+                      className={` w-[100px] text-center text-[8px] md:text-[14px] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[27px] ${
                         i < currentSlabIndex || currentSlabIndex === -1
                           ? "text-[#98A2B3]"
                           : ""
