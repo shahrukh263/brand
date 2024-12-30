@@ -12,7 +12,7 @@ const formatter = new Intl.NumberFormat("en-US");
 const SLABS = [
   { slab: 5, value: 100, mobile: true },
   { slab: 15, value: 250 },
-  { slab: 25, value: 500 },
+  { slab: 25, value: 500 , mobile: true  },
   { slab: 35, value: 1000 },
   { slab: 45, value: 2500, mobile: true },
   { slab: 55, value: 5000 },
