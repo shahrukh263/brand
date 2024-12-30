@@ -67,7 +67,7 @@ const PricingHero = () => {
               className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display sm:px-0 px-6"
             >
               I have{" "}
-              <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px] min-w-[93px] inline-block">
+              <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] sm:py-[4px] py-[2px] sm:px-[8px] px-[6px] min-w-[93px] inline-block">
                 {formatter.format(
                   getRange(
                     IS_MAX_TICKETS_SELECTED ? SLABS.at(-1).slab : values[0]
