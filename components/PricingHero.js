@@ -66,7 +66,7 @@ const PricingHero = () => {
               data-aos="fade-up"
               className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display"
             >
-              I have
+              I have {" "}
               <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px] min-w-[93px] inline-block">
                 {formatter.format(
                   getRange(
@@ -77,7 +77,7 @@ const PricingHero = () => {
               </span>{" "}
               support tickets per month on average
             </h2>
-            <div className="mx-auto md:w-9/12 w-full mb-[48px]">
+            <div className="mx-auto md:w-9/12 w-full md:mb-[48px] mb-8">
               <div className="relative">
                 {/* <input
                   type="range"
@@ -153,7 +153,7 @@ const PricingHero = () => {
                 </div>
               </div>
             </div>
-            <div className="pb-[48px] mb-[48px] border-b">
+            <div className="md:pb-[48px] pb-8 md:mb-[48px] mb-8 border-b">
               <div className="text-center">
                 <ul className="bg-[#F2F4F7] rounded-[12px] py-[4px] px-[4px] inline-flex items-center gap-[4px] mb-6">
                   <li>
@@ -199,7 +199,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white xl:p-8 p-6 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
@@ -214,10 +214,10 @@ const PricingHero = () => {
                             $49
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -225,7 +225,7 @@ const PricingHero = () => {
                         <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             5,000 AI monthly credits
@@ -237,7 +237,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="relative pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="relative pricing-box rounded-[16px] bg-white xl:p-8 p-6 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <span className="absolute right-3 top-3 font-[400] tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
                           Recommended
                         </span>
@@ -254,10 +254,10 @@ const PricingHero = () => {
                             $99
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -265,7 +265,7 @@ const PricingHero = () => {
                         <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             10,000 AI monthly credits
@@ -277,7 +277,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="pricing-box rounded-[16px] bg-white xl:p-8 p-6 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Scale
@@ -291,10 +291,10 @@ const PricingHero = () => {
                             $179
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -302,7 +302,7 @@ const PricingHero = () => {
                         <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             20,000 AI monthly credits
@@ -313,7 +313,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white xl:p-8 p-6 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
@@ -328,10 +328,10 @@ const PricingHero = () => {
                             $269
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -339,7 +339,7 @@ const PricingHero = () => {
                         <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             30,000 AI monthly credits
@@ -354,7 +354,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white xl:p-8 p-6 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
@@ -369,10 +369,10 @@ const PricingHero = () => {
                             $49
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -380,7 +380,7 @@ const PricingHero = () => {
                         <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             5,000 AI monthly credits
@@ -392,7 +392,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="relative pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="relative pricing-box rounded-[16px] bg-white xl:p-8 p-6 border-2 border-[#6962FB] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <span className="absolute right-3 top-3 font-[400] tracking-[-0.006em] text-sm text-[#6962FB] inline-block py-1 px-3 border border-[#C3C1FD] rounded-lg bg-[#F4F4FF]">
                           Recommended
                         </span>
@@ -409,10 +409,10 @@ const PricingHero = () => {
                             $99
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -420,7 +420,7 @@ const PricingHero = () => {
                         <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             10,000 AI monthly credits
@@ -432,7 +432,7 @@ const PricingHero = () => {
                       data-aos="fade-up"
                       className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full"
                     >
-                      <div className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
+                      <div className="pricing-box rounded-[16px] bg-white xl:p-8 p-6 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]">
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
                             Scale
@@ -446,10 +446,10 @@ const PricingHero = () => {
                             $179
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -457,7 +457,7 @@ const PricingHero = () => {
                         <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             20,000 AI monthly credits
@@ -468,7 +468,7 @@ const PricingHero = () => {
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
-                        className="pricing-box rounded-[16px] bg-white py-8 xl:px-8 px-4 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
+                        className="pricing-box rounded-[16px] bg-white xl:p-8 p-6 border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]"
                       >
                         <div className="mb-6">
                           <h4 className="text-[rgba(43,40,102,1)] text-[18px] font-font-[400] tracking-[-0.006em] mb-1 leading-[28px]">
@@ -483,10 +483,10 @@ const PricingHero = () => {
                             $269
                           </h2>
                           <div>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em]">
                               USD / mo
                             </p>
-                            <p className="text-[#525252] text-[14px] font-[400] tracking-[-0.006em]">
+                            <p className="text-[#525252] text-sm font-[400] tracking-[-0.006em] mt-[1px]">
                               Billed monthly
                             </p>
                           </div>
@@ -494,7 +494,7 @@ const PricingHero = () => {
                         <a className="text-[#525866] cursor-pointer text-[14px] tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] [box-shadow:0px_0px_0px_1px_rgba(225,228,234,1),_0px_1px_3px_0px_rgba(14,18,27,.12)]">
                           Start 7-day Free Trial
                         </a>
-                        <div className="mt-6 flex items-center gap-[8px] justify-center">
+                        <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
                             30,000 AI monthly credits
