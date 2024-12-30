@@ -140,7 +140,7 @@ const PricingHero = () => {
                   {SLABS.map(({ value, mobile }, i) => (
                     <span
                       key={value}
-                      className={` w-[100px] text-center text-[8px] md:text-[14px] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[27px] ${
+                      className={` w-[100px] text-center text-[8px] md:text-[14px] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] md:after:bottom-[27px] after:bottom-[18px] ${
                         i < currentSlabIndex || currentSlabIndex === -1
                           ? "text-[#98A2B3]"
                           : ""
