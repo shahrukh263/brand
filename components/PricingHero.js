@@ -64,7 +64,7 @@ const PricingHero = () => {
           <div className="lg:mt-[80px] md:mt-[60px] sm:mt-[42px] mt-[32px]">
             <h2
               data-aos="fade-up"
-              className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display"
+              className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display sm:px-0 px-6"
             >
               I have{" "}
               <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] py-[4px] px-[8px] min-w-[93px] inline-block">
