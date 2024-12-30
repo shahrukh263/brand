@@ -6,6 +6,7 @@ import { useState } from "react";
 import * as React from "react";
 import { Range } from "react-range";
 import { useWindowSize } from "../hooks/useWIndowSize";
+import ThemeButton from '../ui/button'
 const formatter = new Intl.NumberFormat("en-US");
 
 const SLABS = [
@@ -262,8 +263,10 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
-                          Start 7-day Free Trial
+                        <a>
+                          <ThemeButton className="">
+                            Start 7-day Free Trial
+                          </ThemeButton>
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
@@ -417,8 +420,10 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a className="cursor-pointer text-[14px] text-white tracking-[-0.006em] font-[400] leading-[20px] py-[10px] block w-full px-3 text-center rounded-[10px] theme-btn h-10">
-                          Start 7-day Free Trial
+                        <a>
+                          <ThemeButton className="">
+                            Start 7-day Free Trial
+                          </ThemeButton>
                         </a>
                         <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />

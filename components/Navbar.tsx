@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../images/Logo.svg";
 import { useState } from "react";
+import ThemeButton from "../ui/button";
 
 const Navbar: NextComponentType = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -76,11 +77,9 @@ const Navbar: NextComponentType = () => {
                 </a>
               </Link>
               <div className="md:hidden block ml-auto">
-                <Link href={"#"} passHref>
-                  <a className="inline-block text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg trial-mobile-btn">
-                    Start Free Trial
-                  </a>
-                </Link>
+                <ThemeButton>
+                Start Free Trial
+                </ThemeButton>
               </div>
               <button
                 onClick={handleToggle}
@@ -195,11 +194,9 @@ const Navbar: NextComponentType = () => {
                   </Link>
                 </li>
                 <li className="md:block hidden">
-                  <Link href={"#"} passHref>
-                    <a className="theme-btn inline-block text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[6px] px-[10px] theme-btn rounded-lg">
-                      Start Free Trial
-                    </a>
-                  </Link>
+                <ThemeButton className="py-[6px] px-[10px]">
+                Start Free Trial
+                </ThemeButton>
                 </li>
               </ul>
             </div>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import ModerationImg from "../images/moderation-img.png";
 import RepliesImg from "../images/AIgenerated-replies-img.png";
 import ObieImg from "../images/obie-img.png";
+import ThemeButton from "../ui/button";
 const PlatformComt: NextComponentType = () => {
   return (
     <>
@@ -86,24 +87,24 @@ const PlatformComt: NextComponentType = () => {
               </ul>
               <div className="md:mt-8 mt-6">
                 <Link href={"#"} passHref>
-                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px] min-h-[40px]">
+                  <ThemeButton className="">
                     Start Free Trial
                     <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M7.5 5L12.5 10L7.5 15"
-                      stroke="white"
-                      strokeWidth="1.66667"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  </a>
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7.5 5L12.5 10L7.5 15"
+                          stroke="white"
+                          strokeWidth="1.66667"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                  </ThemeButton>
                 </Link>
               </div>
               </div>
@@ -193,24 +194,24 @@ const PlatformComt: NextComponentType = () => {
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px] min-h-[40px]">
-                    Start Free Trial
-                    <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M7.5 5L12.5 10L7.5 15"
-                      stroke="white"
-                      strokeWidth="1.66667"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  </a>
+                    <ThemeButton className="">
+                      Start Free Trial
+                      <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7.5 5L12.5 10L7.5 15"
+                            stroke="white"
+                            strokeWidth="1.66667"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                    </ThemeButton>
                   </Link>
                 </div>
                </div>
@@ -285,24 +286,24 @@ const PlatformComt: NextComponentType = () => {
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                  <a className="md:inline-flex flex items-center justify-center gap-2 text-[14px] font-[400] leading-[20px] tracking-[-0.006em] text-white py-[9px] pl-[14px] pr-[10px] theme-btn rounded-[10px] min-h-[40px]">
-                    Start Free Trial
-                    <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M7.5 5L12.5 10L7.5 15"
-                      stroke="white"
-                      strokeWidth="1.66667"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  </a>
+                  <ThemeButton className="">
+                      Start Free Trial
+                      <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7.5 5L12.5 10L7.5 15"
+                            stroke="white"
+                            strokeWidth="1.66667"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                    </ThemeButton>
                   </Link>
                 </div>
                 </div>
