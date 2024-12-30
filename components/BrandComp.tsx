@@ -10,7 +10,7 @@ import MichaelLogo from "../images/brand-logo/michael-logo.png";
 const BrandComp: NextComponentType = () => {
   return (
     <>
-      <section className="md:pb-16 pb-12 md:mt-0 mt-12">
+      <section className="md:pb-16 pb-12 md:mt-0 mt-12 bg-white">
         <div className="innerDiv xl:max-w-[1152px] xl:px-0">
           <h5 className="text-center text-[#475467] sm:text-xs text-[11px] font-[400] tracking-[0.04em] md:mb-10 mb-6 uppercase">
             Trusted by hundreds of global brands
