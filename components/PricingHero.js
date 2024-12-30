@@ -139,6 +139,7 @@ const PricingHero = () => {
                 <div className="pt-6 flex justify-between overflow-x-auto lg:max-w-[768px] mx-auto">
                   {SLABS.map(({ value, mobile }, i) => (
                     <span
+                      key={value}
                       className={`w-[100px] text-center text-[11px] md:text-[14px] relative after:bg-[#E4E7EC] after:w-[1px] after:h-[12px] after:absolute after:left-[50%] after:translate-x-[-50%] after:bottom-[27px] ${
                         i < currentSlabIndex || currentSlabIndex === -1
                           ? "text-[#98A2B3]"
