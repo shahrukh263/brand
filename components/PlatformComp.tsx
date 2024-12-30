@@ -7,7 +7,7 @@ import ObieImg from "../images/obie-img.png";
 const PlatformComt: NextComponentType = () => {
   return (
     <>
-      <section className="lg:py-24 md:py-20 sm:py-16 py-12 relative md:after:bg-[url('../images/social-platform-bg.png')] md:after:absolute md:after:right-0 md:after:top-0 md:after:w-1/2 md:after:h-[421px] md:after:bg-no-repeat md:after:bg-cover md:after:z-[-1]">
+      <section className="lg:py-24 bg-white md:py-20 sm:py-16 py-12 relative md:after:bg-[url('../images/social-platform-bg.png')] md:after:absolute md:after:right-0 md:after:top-0 md:after:w-1/2 md:after:h-[421px] md:after:bg-no-repeat md:after:bg-cover md:after:z-[1]">
         <div className="innerDiv">
           <div
             className="text-center lg:mb-24 md:mb-16 sm:mb-12 mb-8"

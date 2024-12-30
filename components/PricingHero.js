@@ -48,7 +48,7 @@ const PricingHero = () => {
   const IS_MAX_TICKETS_SELECTED = values[0] >= SLABS.at(-1).slab;
   return (
     <>
-      <section className="pt-[60px] pb-[60px] md:pt-24 md:pb-24 relative bg-white  bg-[url('../images/price-hero-bg.png')] bg-cover bg-bottom">
+      <section className="pt-12 pb-12 md:pt-24 md:pb-24 relative bg-white  bg-[url('../images/price-hero-bg.png')] bg-cover bg-bottom">
         <div className="innerDiv">
           <div className="text-center" data-aos="fade-up">
             <h1 className="font-[600] lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] inter-display">

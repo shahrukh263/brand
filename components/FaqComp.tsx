@@ -5,7 +5,7 @@ import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 const FaqComp: NextComponentType = () => {
   return (
     <>
-      <section className="lg:py-24 md:py-20 sm:py-16 py-12">
+      <section className="lg:py-24 md:py-20 sm:py-16 py-12 bg-white">
         <div className="innerDiv xl:max-w-[768px] xl:px-0">
           <div className="text-center md:mb-16 mb-8" data-aos="fade-up">
             <h4 className="text-[#2B2866] font-[600] lg:text-[56px] lg:leading-[1] md:text-[48px] md:leading-[1.2] sm:text-[42px] sm:leading-[1.3] text-[32px] leading-[38px] inter-display">
