@@ -77,7 +77,7 @@ const Navbar: NextComponentType = () => {
                 </a>
               </Link>
               <div className="md:hidden block ml-auto">
-                <ThemeButton>
+                <ThemeButton className="py-[6px] px-[10px]">
                 Start Free Trial
                 </ThemeButton>
               </div>
