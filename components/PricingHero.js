@@ -195,7 +195,7 @@ const PricingHero = () => {
               </div>
               <div>
                 <div className={openTab === 1 ? "block" : "hidden"}>
-                  <div className="flex flex-wrap xl:-mx-3 sm:-mx-2 lg:gap-y-0 gap-y-3">
+                  <div className="flex flex-wrap xl:-mx-3 sm:-mx-2 lg:gap-y-0 gap-y-6">
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
@@ -350,7 +350,7 @@ const PricingHero = () => {
                   </div>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"}>
-                  <div className="flex flex-wrap xl:-mx-3 sm:-mx-2 lg:gap-y-0 gap-y-3">
+                  <div className="flex flex-wrap xl:-mx-3 sm:-mx-2 lg:gap-y-0 gap-y-6">
                     <div className="lg:px-3 sm:px-2 lg:w-1/4 md:w-1/2 sm:w-1/2 w-full">
                       <div
                         data-aos="fade-up"
