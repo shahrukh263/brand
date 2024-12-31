@@ -87,7 +87,7 @@ const PlatformComt: NextComponentType = () => {
               </ul>
               <div className="md:mt-8 mt-6">
                 <Link href={"#"} passHref>
-                  <ThemeButton className="">
+                  <ThemeButton className="md:w-auto">
                     Start Free Trial
                     <svg
                         width="20"
@@ -194,7 +194,7 @@ const PlatformComt: NextComponentType = () => {
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                    <ThemeButton className="">
+                  <ThemeButton className="md:w-auto">
                       Start Free Trial
                       <svg
                           width="20"
@@ -286,7 +286,7 @@ const PlatformComt: NextComponentType = () => {
                 </ul>
                 <div className="md:mt-8 mt-6">
                   <Link href={"#"} passHref>
-                  <ThemeButton className="">
+                  <ThemeButton className="md:w-auto">
                       Start Free Trial
                       <svg
                           width="20"
