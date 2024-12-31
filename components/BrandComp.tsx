@@ -21,7 +21,7 @@ const BrandComp: NextComponentType = () => {
               <div className="flex items-center animate-slow-infinite-scroll gap-12 mix-blend-darken justify-between">
                 <div className="flex-shrink-0">
                   <Image
-                    className="object-contain h-[20px] w-full mix-blend-darken"
+                    className="object-contain h-[20px] w-full mix-blend-darken flex items-center"
                     data-src={MugsyLogo}
                     src={MugsyLogo}
                     alt=""
@@ -30,7 +30,7 @@ const BrandComp: NextComponentType = () => {
                     height={48}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="object-contain h-[20px] w-full mix-blend-darken"
                     data-src={PinkBoutiqueLogo}
@@ -41,7 +41,7 @@ const BrandComp: NextComponentType = () => {
                     height={32}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="object-contain h-[20px] w-full mix-blend-darken"
                     data-src={ObviLogo}
@@ -52,7 +52,7 @@ const BrandComp: NextComponentType = () => {
                     height={40}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="object-contain h-[20px] w-full mix-blend-darken"
                     data-src={RowenLogo}
@@ -63,7 +63,7 @@ const BrandComp: NextComponentType = () => {
                     height={32}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                 <Image
                   className="object-contain h-[20px] w-full mix-blend-darken"
                   data-src={MonosLogo}
@@ -74,7 +74,7 @@ const BrandComp: NextComponentType = () => {
                   height={44}
                 />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                 <Image
                   className="object-contain h-[20px] w-full mix-blend-darken"
                   data-src={DozeLogo}
@@ -85,7 +85,7 @@ const BrandComp: NextComponentType = () => {
                   height={40}
                 />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                 <Image
                   className="object-contain h-[20px] w-full mix-blend-darken"
                   data-src={MichaelLogo}
@@ -96,7 +96,7 @@ const BrandComp: NextComponentType = () => {
                   height={32}
                 />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="object-contain h-[20px] w-full mix-blend-darken"
                     data-src={MugsyLogo}
@@ -107,7 +107,7 @@ const BrandComp: NextComponentType = () => {
                     height={48}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="object-contain h-[20px] w-full mix-blend-darken"
                     data-src={PinkBoutiqueLogo}
@@ -118,7 +118,7 @@ const BrandComp: NextComponentType = () => {
                     height={32}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="object-contain h-[20px] w-full mix-blend-darken"
                     data-src={ObviLogo}
@@ -129,7 +129,7 @@ const BrandComp: NextComponentType = () => {
                     height={40}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="object-contain h-[20px] w-full mix-blend-darken"
                     data-src={RowenLogo}
@@ -140,7 +140,7 @@ const BrandComp: NextComponentType = () => {
                     height={32}
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                 <Image
                   className="object-contain h-[20px] w-full mix-blend-darken"
                   data-src={MonosLogo}
@@ -151,7 +151,7 @@ const BrandComp: NextComponentType = () => {
                   height={44}
                 />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                 <Image
                   className="object-contain h-[20px] w-full mix-blend-darken"
                   data-src={DozeLogo}
@@ -162,7 +162,7 @@ const BrandComp: NextComponentType = () => {
                   height={40}
                 />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center">
                 <Image
                   className="object-contain h-[20px] w-full mix-blend-darken"
                   data-src={MichaelLogo}
