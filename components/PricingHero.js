@@ -67,7 +67,7 @@ const PricingHero = () => {
               data-aos="fade-up"
               className="mb-6 text-center md:text-[24px] md:leading-[32px] text-[20px] leading-[28px] font-[600] text-[#2B2866] tracking-[-0.02em] inter-display sm:px-0 px-6"
             >
-              I have{" "}
+              I get{" "}
               <span className="bg-[#F4F4FF] rounded-[8px] text-[#6962FB] sm:py-[4px] py-[2px] sm:px-[8px] px-[6px] min-w-[93px] inline-block">
                 {formatter.format(
                   getRange(
@@ -76,7 +76,7 @@ const PricingHero = () => {
                 )}
                 {IS_MAX_TICKETS_SELECTED && "+"}
               </span>{" "}
-              support tickets per month on average
+              social comments per month on average
             </h2>
             <div className="mx-auto md:w-9/12 w-full md:mb-[48px] mb-8">
               <div className="relative">
