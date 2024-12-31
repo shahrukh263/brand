@@ -5,7 +5,7 @@ import PinkBoutiqueLogo from "../images/brand-logo/pink-boutique-logo.png";
 import ObviLogo from "../images/brand-logo/obvi-logo.png";
 import RowenLogo from "../images/brand-logo/rowen-logo.png";
 import MonosLogo from "../images/brand-logo/monos-logo.png";
-import DozeLogo from "../images/brand-logo/doze-logo.png";
+import DozeLogo from "../images/brand-logo/dose.svg";
 import MichaelLogo from "../images/brand-logo/michael-logo.png";
 const BrandComp: NextComponentType = () => {
   return (
