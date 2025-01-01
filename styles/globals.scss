@@ -438,6 +438,10 @@ footer {
 .animate-slow-infinite-scroll {
   -webkit-animation: scroll var(--animation-duration, 40s) linear infinite;
   animation: scroll var(--animation-duration, 40s) linear infinite;
+  @media (max-width:480px) {
+    -webkit-animation: scroll var(--animation-duration, 20s) linear infinite;
+    animation: scroll var(--animation-duration, 20s) linear infinite;
+  }
 }
 
 .accordian-main {
