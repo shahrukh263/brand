@@ -7,7 +7,7 @@ import ThemeButton from "../ui/button";
 const SocialHero: NextComponentType = () => {
   return (
     <>
-      <section className="mb-12 pt-12 md:pt-20 relative bg-[url('../images/social-hero-bg.png')] md:bg-cover bg-no-repeat">
+      <section className="md:mb-16 pt-12 md:pt-20 relative sm:bg-[url('../images/social-hero-bg.png')] bg-[url('../images/social-hero-mobile-bg.png')] bg-cover bg-no-repeat bg-bottom">
         <div className="innerDiv">
           <div className="text-center" data-aos="fade-up">
             {/* <p className="uppercase text-xs font-[400] tracking-[0.04em] text-[#5650CD] mb-8">
