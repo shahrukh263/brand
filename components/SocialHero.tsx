@@ -1,5 +1,5 @@
 import type { NextComponentType } from "next";
-import HeroImg from "../images/social-hero-img.webp";
+import HeroImg from "../images/social-hero-img.png";
 import HeroMobileImg from "../images/social-hero-mobile-img.png";
 import Image from "next/image";
 import Link from "next/link";
