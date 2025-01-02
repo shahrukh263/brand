@@ -9,11 +9,11 @@ const TrialComp: NextComponentType = () => {
     <>
       <section className="">
         <div className="innerDiv xl:max-w-[1216px] xl:px-0">
-          <div className="overflow-hidden rounded-3xl sm:bg-[url('../images/free-trial-bg.png')] bg-[url('../images/free-trial-mobile-bg.png')] lg:pl-16 md:pl-[42px] md:pr-0 lg:pt-12 pt-10 bg-cover lg:bg-no-repeat bg-center">
+          <div className="overflow-hidden rounded-3xl sm:bg-[url('../images/free-trial-bg.png')] bg-[url('../images/free-trial-mobile-bg.png')] lg:pl-16 md:pr-0 lg:pt-[42px] pt-10 bg-cover lg:bg-no-repeat bg-center">
             <div className="flex flex-wrap">
-              <div className="lg:w-[calc(50%+10px)]  w-full md:px-0 px-6">
+              <div className="lg:w-[calc(50%+10px)] xl:w-[44%] w-full lg:px-0 px-6">
                 <div
-                  className="md:text-left text-center md:pr-[47px] md:pl-0"
+                  className="md:text-left text-center"
                   data-aos="fade-right"
                 >
                   <h3 className="text-[#2B2866] font-[500] inter-display lg:text-[56px] lg:leading-[1] md:text-[42px] sm:text-4xl text-[32px] leading-[38px]">
@@ -51,10 +51,10 @@ const TrialComp: NextComponentType = () => {
                   </div>
                 </div>
               </div>
-              <div className="lg:w-[calc(50%-10px)] w-full md:pl-0 pl-5">
+              <div className="lg:w-[calc(50%-10px)] xl:w-[56%] w-full lg:pl-0 pl-[19px]">
                 <div className="sm:block hidden">
                   <div className="block-img lg:mt-0 mt-9 image-block" data-aos="fade-left">
-                    <Image src={LiveChatImg} width={1292} height={850} objectFit="contain" objectPosition={'bottom'} alt="" />
+                    <Image src={LiveChatImg} width={1292} height={756}  alt="" />
                   </div>
                 </div>
                 <div className="sm:hidden block">
