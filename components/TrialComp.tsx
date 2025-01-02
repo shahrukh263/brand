@@ -19,7 +19,7 @@ const TrialComp: NextComponentType = () => {
                   <h3 className="text-[#2B2866] font-[500] inter-display lg:text-[56px] lg:leading-[1] md:text-[42px] sm:text-4xl text-[32px] leading-[38px]">
                     Get started with Brandwise today
                   </h3>
-                  <p className="text-[#475467] md:mt-5 mt-4 mb-8 md:text-lg text-sm font-[400] xl:w-[89%]">
+                  <p className="text-[#475467] md:mt-5 mt-4 mb-8 md:text-lg text-sm font-[400] xl:w-[89%] lg:w-[85%]">
                     Try Brandwise free for 7 days—you'll have access to every
                     feature. Cancel any time.
                   </p>
