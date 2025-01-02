@@ -53,8 +53,8 @@ const TrialComp: NextComponentType = () => {
               </div>
               <div className="lg:w-[calc(50%-10px)] w-full md:pl-0 pl-5">
                 <div className="sm:block hidden">
-                  <div className="block-img lg:mt-0 mt-9" data-aos="fade-left">
-                    <Image src={LiveChatImg} width={768} height={495} alt="" />
+                  <div className="block-img lg:mt-0 mt-9 image-block" data-aos="fade-left">
+                    <Image src={LiveChatImg} width={1292} height={850} objectFit="contain" objectPosition={'bottom'} alt="" />
                   </div>
                 </div>
                 <div className="sm:hidden block">

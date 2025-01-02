@@ -418,6 +418,15 @@ footer {
     display: block !important;
   }
 }
+.image-block{
+  & span {
+    display: block !important;
+  }
+
+  & img {
+    display: block !important;
+  }
+}
 
 .mySwiper {
   & .swiper-wrapper {
