@@ -1,12 +1,12 @@
 import type { NextComponentType } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import analyticsImg from "../images/analytics-img.png";
-import DmMentionsImg from "../images/DM-mentions-img.png";
-import postViewerImg from "../images/post-viewer-img.png";
-import TranslationImg from "../images/translation-img.png";
-import BlackListImg from "../images/blacklist-img.png";
-import bulkImg from "../images/bulk-actions-img.png";
+import analyticsImg from "../images/analytics-img.svg";
+import DmMentionsImg from "../images/DM-mentions-img.svg";
+import postViewerImg from "../images/post-viewer-img.svg";
+import TranslationImg from "../images/translation-img.svg";
+import BlackListImg from "../images/blacklist-img.svg";
+import bulkImg from "../images/bulk-actions-img.svg";
 const SocialFeature: NextComponentType = () => {
   return (
     <>
