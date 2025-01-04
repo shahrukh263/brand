@@ -1,9 +1,8 @@
 import { NextComponentType } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import ModerationImg from "../images/moderation-img.png";
-import RepliesImg from "../images/AIgenerated-replies-img.png";
-import ObieImg from "../images/obie-img.png";
+import WorkFlowImg from "../images/workflow-img.svg";
+import AiImg from "../images/ai-img.svg";
 import ThemeButton from "../ui/button";
 const HelpPlatformComp: NextComponentType = () => {
   return (
@@ -14,7 +13,7 @@ const HelpPlatformComp: NextComponentType = () => {
             className="text-center lg:mb-24 md:mb-16 sm:mb-12 mb-8"
             data-aos="fade-up"
           >
-            <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em]">
+            <h3 className="text-[rgba(43,40,102,1)] md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] inter-display tracking-[-0.02em] mx-auto lg:max-w-[896px]">
             Boost team efficiency while delivering better customer service
             </h3>
             <p className="md:text-[16px] text-sm font-[400] md:leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] mx-auto">
@@ -22,12 +21,12 @@ const HelpPlatformComp: NextComponentType = () => {
             </p>
           </div>
           <div className="xl:mx-auto xl:max-w-[1152px]">
-          <div className="flex flex-wrap sm:-mx-4 md:justify-center md:items-center">
+          <div className="flex flex-wrap sm:-mx-4 md:justify-between md:items-center">
             <div
-              className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
+              className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-5/12 w-full md:order-1 order-2"
               data-aos="fade-right"
             >
-              <div className="lg:pr-12">
+              <div className="lg:pr-[10px]">
               <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
               Simplify workflow with a unified inbox
               </h4>
@@ -113,7 +112,7 @@ const HelpPlatformComp: NextComponentType = () => {
               data-aos="fade-left"
             >
               <Image
-                src={ModerationImg}
+                src={WorkFlowImg}
                 width={656} height={460} objectFit="cover"
                 alt=""
                 className="!block rounded-2xl"
@@ -121,18 +120,18 @@ const HelpPlatformComp: NextComponentType = () => {
             </div>
           </div>
           <div className="lg:pt-16 pt-12 xl:pt-24">
-            <div className="flex flex-wrap sm:-mx-4 md:justify-between md:items-center">
+            <div className="flex flex-wrap xl:gap-x-8 lg:gap-x-8 md:gap-x-4 md:items-center">
               <div
-                className="sm:px-4 xl:px-0 xl:w-[656px] lg:w-1/2 md:w-1/2 w-full"
+                className="xl:w-[656px] lg:w-1/2 md:w-1/2 w-full"
                 data-aos="fade-right"
               >
-                <Image src={RepliesImg} alt="" width={656} height={460} objectFit="cover" className="!block rounded-2xl" />
+                <Image src={AiImg} alt="" width={656} height={460} objectFit="cover" className="!block rounded-2xl" />
               </div>
               <div
-                className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full"
+                className="xl:w-[38%] lg:w-5/12 md:w-5/12 w-full"
                 data-aos="fade-left"
               >
-               <div className="lg:pl-12">
+               <div className="">
                <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                AI that not only makes you faster, but better
                 </h4>

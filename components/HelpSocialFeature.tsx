@@ -1,16 +1,16 @@
 import type { NextComponentType } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import analyticsImg from "../images/analytics-img.svg";
-import DmMentionsImg from "../images/DM-mentions-img.svg";
-import postViewerImg from "../images/post-viewer-img.svg";
-import TranslationImg from "../images/translation-img.svg";
-import BlackListImg from "../images/blacklist-img.svg";
-import bulkImg from "../images/bulk-actions-img.svg";
+import analyticsImg from "../images/help-analytics.svg";
+import SmartLevelImg from "../images/smart-level-img.svg";
+import ShopifyIntegration from "../images/shopify-integration-img.svg";
+import AiSummariesImg from "../images/AI-Summaries-img.svg";
+import twoWayTransationImg from "../images/two-way-translation-img.svg";
+import TeamImg from "../images/team-img.svg";
 const HelpSocialFeature: NextComponentType = () => {
   return (
     <>
-      <section className="lg:pb-[160px] md:pb-20 sm:pb-16 pb-12">
+      <section className="md:pb-24 sm:pb-16 pb-12">
         <div className="innerDiv xl:max-w-[1152px] xl:px-0">
           <h4
             data-aos="fade-up"
@@ -45,7 +45,7 @@ const HelpSocialFeature: NextComponentType = () => {
             >
               <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
-                  src={DmMentionsImg}
+                  src={SmartLevelImg}
                   alt=""
                   className="rounded-t-3xl !block"
                 />
@@ -65,7 +65,7 @@ const HelpSocialFeature: NextComponentType = () => {
             >
               <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
-                  src={postViewerImg}
+                  src={ShopifyIntegration}
                   alt=""
                   className="rounded-t-3xl !block"
                 />
@@ -85,7 +85,7 @@ const HelpSocialFeature: NextComponentType = () => {
             >
               <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
-                  src={TranslationImg}
+                  src={AiSummariesImg}
                   alt=""
                   className="rounded-t-3xl !block"
                 />
@@ -105,7 +105,7 @@ const HelpSocialFeature: NextComponentType = () => {
             >
               <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
                 <Image
-                  src={BlackListImg}
+                  src={twoWayTransationImg}
                   alt=""
                   className="rounded-t-3xl !block"
                 />
@@ -124,7 +124,7 @@ const HelpSocialFeature: NextComponentType = () => {
               className="w-full h-full"
             >
               <div className="bg-white rounded-3xl border border-[#E4E7EC] shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] h-full">
-                <Image src={bulkImg} alt="" className="rounded-t-3xl !block" />
+                <Image src={TeamImg} alt="" className="rounded-t-3xl !block" />
                 <div className=" p-6">
                   <h4 className="inter-display text-[#0C111D] font-semibold text-xl tracking-[-0.01em]">
                   Team Collaboration
