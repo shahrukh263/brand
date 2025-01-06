@@ -1,13 +1,14 @@
 import type {NextPage} from 'next';
 import Head from 'next/head';
+import HomeHero from '../components/Hero';
 
 const Home: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Update It</title>
+				<title>Home</title>
 			</Head>
-			<h1>Home Page</h1>
+			<HomeHero/>
 		</>
 	);
 };

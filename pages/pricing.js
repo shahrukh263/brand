@@ -24,7 +24,6 @@ const Pricing = () => {
 			<BrandComp/>
 			<FaqComp/>
 			<TrialComp/>
-			<Footer/>
 		</>
 	);
 };
