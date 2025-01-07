@@ -7,17 +7,17 @@ import ThemeButton from "../ui/button";
 const HomePlatformComp: NextComponentType = () => {
   return (
     <>
-      <section className="lg:py-24 bg-white md:py-20 sm:py-16 py-12 relative md:after:bg-[url('../images/social-platform-bg.png')] md:after:absolute md:after:right-0 md:after:top-0 md:after:w-1/2 md:after:h-[421px] md:after:bg-no-repeat md:after:bg-cover md:after:z-[1]">
+      <section className="lg:py-24 bg-white md:py-20 sm:py-16 pb-12 pt-8 relative md:after:bg-[url('../images/social-platform-bg.png')] md:after:absolute md:after:right-0 md:after:top-0 md:after:w-1/2 md:after:h-[421px] md:after:bg-no-repeat md:after:bg-cover md:after:z-[1]">
         <div className="innerDiv">
           <div className="xl:mx-auto xl:max-w-[1152px]">
             <div className="flex flex-wrap sm:-mx-4 md:justify-between md:items-center relative z-[2]">
               <div
-                className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-5/12 w-full md:order-1 order-2"
+                className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
                 data-aos="fade-right"
               >
-                <div className="lg:pr-[10px]">
+                <div className="">
                   <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
-                    Save hours with our AI-powered Helpdesk
+                    Save hours with our <span className="lg:block">AI-powered Helpdesk</span>
                   </h4>
                   <ul className="flex flex-col md:gap-y-4 gap-y-3">
                     <li className="flex gap-x-3">
@@ -97,7 +97,7 @@ const HomePlatformComp: NextComponentType = () => {
                           </ThemeButton>
                         </Link>
                         <Link href={"#"} passHref>
-                          <a className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
+                          <a className="inline-block py-[10px] px-[14px] text-center rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                           Start Free Trial
                           </a>
                         </Link>
@@ -119,9 +119,9 @@ const HomePlatformComp: NextComponentType = () => {
               </div>
             </div>
             <div className="lg:pt-16 pt-12 xl:pt-24">
-              <div className="flex flex-wrap xl:gap-x-8 lg:gap-x-8 md:gap-x-4 md:items-center">
+              <div className="flex flex-wrap xl:gap-x-8 lg:gap-x-8 lg:-mx-0 sm:-mx-3 md:items-center">
                 <div
-                  className="xl:w-[656px] lg:w-1/2 md:w-1/2 w-full"
+                  className="xl:w-[656px] lg:w-1/2 md:w-1/2 w-full lg:px-0 sm:px-3"
                   data-aos="fade-right"
                 >
                   <Image
@@ -134,7 +134,7 @@ const HomePlatformComp: NextComponentType = () => {
                   />
                 </div>
                 <div
-                  className="xl:w-[38%] lg:w-5/12 md:w-5/12 w-full"
+                  className="xl:w-[38%] lg:w-5/12 md:w-1/2 w-full lg:px-0 sm:px-3"
                   data-aos="fade-left"
                 >
                   <div className="">
@@ -219,7 +219,7 @@ const HomePlatformComp: NextComponentType = () => {
                           </ThemeButton>
                         </Link>
                         <Link href={"#"} passHref>
-                          <a className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
+                          <a className="inline-block text-center py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                           Start Free Trial
                           </a>
                         </Link>

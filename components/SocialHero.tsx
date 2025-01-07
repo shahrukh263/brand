@@ -53,7 +53,7 @@ const SocialHero: NextComponentType = () => {
           <div className="sm:block hidden">
             <Image src={HeroImg} alt="" />
           </div>
-          <div className="sm:hidden block text-center">
+          <div className="sm:hidden block text-center mt-7">
             <Image src={HeroMobileImg} alt="" />
           </div>
         </div>
