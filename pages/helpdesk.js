@@ -26,7 +26,6 @@ const SocialInbox = () => {
       <TestimonialComp />
       <FaqComp />
       <TrialComp/>
-      <Footer />
     </div>
   );
 };
