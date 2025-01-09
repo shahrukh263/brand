@@ -15,7 +15,7 @@ const HomePlatformComp: NextComponentType = () => {
                 className="sm:px-4 xl:w-5/12 lg:w-1/2 md:w-1/2 w-full md:order-1 order-2"
                 data-aos="fade-right"
               >
-                <div className="">
+                <div className="lg:pr-[10px]">
                   <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
                     Save hours with our <span className="lg:block">AI-powered Helpdesk</span>
                   </h4>
@@ -78,7 +78,7 @@ const HomePlatformComp: NextComponentType = () => {
                   <div className="flex sm:flex-row flex-col gap-5 mb-2 md:mt-8 mt-6">
                         <Link href={"#"} passHref>
                           <ThemeButton className="md:w-auto">
-                            Explore Social Inbox
+                          Explore our Helpdesk
                             <svg
                               width="20"
                               height="20"
@@ -134,7 +134,7 @@ const HomePlatformComp: NextComponentType = () => {
                   />
                 </div>
                 <div
-                  className="xl:w-[38%] lg:w-5/12 md:w-1/2 w-full lg:px-0 sm:px-3"
+                  className="xl:w-[39%] lg:w-5/12 md:w-1/2 w-full lg:px-0 sm:px-3"
                   data-aos="fade-left"
                 >
                   <div className="">

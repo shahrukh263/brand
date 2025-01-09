@@ -39,7 +39,7 @@ const HomeHero: NextComponentType = () => {
               <span>Provide instant customer service with AI </span>
               <span className="absolute md:bottom-5 bottom-3">
                 <svg
-                  className="inline-block"
+                  className="inline-block md:w-10 md:h-10"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -99,7 +99,7 @@ const HomeHero: NextComponentType = () => {
           <div className="sm:block hidden text-center">
             <Image src={HeroImg} alt="" />
           </div>
-          <div className="sm:hidden block mt-7">
+          <div className="sm:hidden block mt-7 text-center">
             <Image src={HeroMobileImg} alt="" />
           </div>
         </div>

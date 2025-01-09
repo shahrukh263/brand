@@ -4,7 +4,7 @@ import SocialImg from "../images/social-img.svg";
 const SocialAccounts: NextComponentType = () => {
   return (
     <>
-      <section className="lg:py-24 md:py-20 sm:py-16 pt-12 bg-[url('../images/feature-bg.png')] md:bg-top bg-cover bg-center">
+      <section className="lg:pt-24 md:pt-20 sm:py-16 pt-12 md:pb-4 bg-[url('../images/feature-bg.png')] md:bg-top bg-cover bg-center">
         <div className="innerDiv xl:max-w-[1152px] xl:px-[11px]">
           <div className="text-center" data-aos="fade-up">
           <Image src={SocialImg} alt=""/>
