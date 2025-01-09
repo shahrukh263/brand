@@ -8,7 +8,7 @@ const HomeHero: NextComponentType = () => {
   return (
     <>
       <section className="md:mb-16 pt-12 md:pt-24 relative sm:bg-[url('../images/social-hero-bg.png')] bg-[url('../images/social-hero-mobile-bg.png')] bg-cover bg-no-repeat bg-bottom">
-        <div className="innerDiv lg:w-[896px] lg:px-0 mx-auto">
+        <div className="innerDiv lg:max-w-[896px] lg:px-0 mx-auto">
           <div className="text-center" data-aos="fade-up">
             <p className="uppercase sm:text-xs text-[9px] font-[400] tracking-[0.04em] text-[#5650CD] mb-8 bg-[#F4F4FF] border border-[#C3C1FD] inline-flex py-[5px] pl-3 pr-1 items-center gap-[6px] rounded-full text-left">
               <span>Some text about new update can go here</span>
@@ -35,9 +35,9 @@ const HomeHero: NextComponentType = () => {
                 />
               </svg>
             </p>
-            <h1 className="font-[600] inter-display lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] relative md:w-[93%] mx-auto">
-              <span>Provide instant customer service with AI </span>
-              <span className="absolute md:bottom-5 bottom-3">
+            <h1 className="font-[600] inter-display lg:text-[72px] md:text-[60px] text-[40px] leading-[1] text-[#2B2866] tracking-[-0.02em] relative mx-auto">
+              Provide instant <span className="lg:block">customer service with AI </span>
+              <span className="absolute md:bottom-5 bottom-3 lg:right-[-5px]">
                 <svg
                   className="inline-block md:w-10 md:h-10"
                   width="24"
