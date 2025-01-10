@@ -2,7 +2,7 @@ import type { NextComponentType } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import LiveChatImg from "../images/Live-Chat-img2.svg";
-import LiveChatIMobilemg from "../images/Live-Chat-mobile-img2.svg";
+import LiveChatIMobilemg from "../images/Live-Chat-mobile-img2.png";
 import ThemeButton from "../ui/button";
 const TrialCompHome: NextComponentType = () => {
   return (

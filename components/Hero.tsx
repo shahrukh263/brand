@@ -1,6 +1,6 @@
 import type { NextComponentType } from "next";
 import HeroImg from "../images/hero-home.svg";
-import HeroMobileImg from "../images/home-hero-mobile.svg";
+import HeroMobileImg from "../images/home-hero-mobile.png";
 import Image from "next/image";
 import Link from "next/link";
 import ThemeButton from "../ui/button";
