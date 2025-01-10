@@ -9,7 +9,7 @@ const SocialAccounts: NextComponentType = () => {
           <div className="text-center" data-aos="fade-up">
           <Image src={SocialImg} alt=""/>
           </div>
-          <h3 data-aos="fade-up" className="md:text-[40px] md:leading-[1] text-[32px] leading-[38px] font-[600] tracking-[-0.02em] text-[#2B2866] text-center md:mb-6 mb-4 inter-display">
+          <h3 data-aos="fade-up" className="md:text-[56px] md:leading-[1] text-[32px] leading-[38px] font-[600] tracking-[-0.02em] text-[#2B2866] text-center md:mb-6 mb-4 inter-display">
           Every channel in one place
           </h3>
           <p data-aos="fade-up" className="md:text-[16px] text-sm font-[400] md:leading-[24px] tracking-[-0.011em] md:mt-6 mt-4 text-[#475467] text-center">Some text goes here...</p>
