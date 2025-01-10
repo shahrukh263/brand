@@ -6,7 +6,7 @@ function MyApp({Component, pageProps}: AppProps) {
 	return (
 		<>
 			<Navbar />
-			<main>
+			<main className='overflow-x-hidden'>
 				<Component {...pageProps} />
 			</main>
 			<Footer />
