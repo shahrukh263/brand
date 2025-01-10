@@ -1,6 +1,6 @@
 import type { NextComponentType } from "next";
 import Image from "next/image";
-import SocialImg from "../images/social-img.svg";
+import SocialImg from "../images/social-img.png";
 const SocialAccounts: NextComponentType = () => {
   return (
     <>
