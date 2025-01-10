@@ -100,7 +100,7 @@ const HomeHero: NextComponentType = () => {
             <Image src={HeroImg} alt="" />
           </div>
           <div className="sm:hidden block mt-7 text-center">
-            <Image src={HeroMobileImg} alt="" />
+            <Image src={HeroImg} alt="" />
           </div>
         </div>
       </section>
