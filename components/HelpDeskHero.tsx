@@ -49,11 +49,8 @@ const HelpDeskHero: NextComponentType = () => {
           </div>
         </div>
         <div data-aos="fade-up">
-          <div className="sm:block hidden text-center">
+          <div className="mt-7 md:mt-0 text-center">
             <Image src={HeroImg} alt="" />
-          </div>
-          <div className="sm:hidden block text-center mt-7">
-            <Image src={HeroMobileImg} alt="" />
           </div>
         </div>
       </section>
