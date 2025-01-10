@@ -5,7 +5,7 @@ import BrandComp from "../components/BrandComp";
 import HomePlatformComp from "../components/HomePlatformComp";
 import FaqComp from "../components/FaqComp";
 import TestimonialComp from "../components/TestimonialComp";
-import TrialComp from "../components/TrialComp";
+import TrialCompHome from "../components/TrialCompHome";
 import SocialAccounts from "../components/SocialAccounts";
 
 const Home: NextPage = () => {
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       <div className="md:block hidden">
         <SocialAccounts />
       </div>
-      <TrialComp />
+      <TrialCompHome />
     </>
   );
 };

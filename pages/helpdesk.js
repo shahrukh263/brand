@@ -7,7 +7,7 @@ import BrandComp from "../components/BrandComp";
 import Footer from "../components/footer";
 import TestimonialComp from "../components/TestimonialComp";
 import FaqComp from "../components/FaqComp";
-import TrialComp from "../components/TrialComp";
+import TrialCompHome from "../components/TrialCompHome";
 import HelpPlatformComp from "../components/HelpPlatformComp";
 import HelpSocialFeature from "../components/HelpSocialFeature";
 const SocialInbox = () => {
@@ -25,7 +25,7 @@ const SocialInbox = () => {
       <HelpSocialFeature/>
       <TestimonialComp />
       <FaqComp />
-      <TrialComp/>
+      <TrialCompHome/>
     </div>
   );
 };
