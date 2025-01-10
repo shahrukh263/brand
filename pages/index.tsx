@@ -16,20 +16,10 @@ const Home: NextPage = () => {
       </Head>
       <HomeHero />
       <BrandComp />
-      <div className="md:hidden block">
-        <SocialAccounts />
-      </div>
+      <SocialAccounts />
       <HomePlatformComp />
-      <div className="md:block hidden">
-        <FaqComp />
-      </div>
       <TestimonialComp />
-	  <div className="md:hidden block">
-        <FaqComp />
-      </div>
-      <div className="md:block hidden">
-        <SocialAccounts />
-      </div>
+      <FaqComp />
       <TrialCompHome />
     </>
   );
