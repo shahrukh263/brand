@@ -1,9 +1,9 @@
 import { NextComponentType } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import ModerationImg from "../images/moderation-img.png";
-import RepliesImg from "../images/AIgenerated-replies-img.png";
-import ObieImg from "../images/obie-img.png";
+import ModerationImg from "../images/moderation-img.svg";
+import RepliesImg from "../images/AIgenerated-replies-img.svg";
+import ObieImg from "../images/obie-img.svg";
 import ThemeButton from "../ui/button";
 const PlatformComt: NextComponentType = () => {
   return (
