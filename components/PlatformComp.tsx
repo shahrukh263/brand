@@ -86,8 +86,7 @@ const PlatformComt: NextComponentType = () => {
                 </li>
               </ul>
               <div className="md:mt-8 mt-6">
-                <Link href={"#"} legacyBehavior>
-                  <ThemeButton className="md:w-auto">
+              <ThemeButton className="md:w-auto">
                     Start Free Trial
                     <svg
                         width="20"
@@ -105,7 +104,6 @@ const PlatformComt: NextComponentType = () => {
                         />
                       </svg>
                   </ThemeButton>
-                </Link>
               </div>
               </div>
             </div>
@@ -193,7 +191,6 @@ const PlatformComt: NextComponentType = () => {
                   </li>
                 </ul>
                 <div className="md:mt-8 mt-6">
-                  <Link href={"#"} legacyBehavior>
                   <ThemeButton className="md:w-auto">
                       Start Free Trial
                       <svg
@@ -212,7 +209,6 @@ const PlatformComt: NextComponentType = () => {
                           />
                         </svg>
                     </ThemeButton>
-                  </Link>
                 </div>
                </div>
               </div>
@@ -285,7 +281,6 @@ const PlatformComt: NextComponentType = () => {
                   </li>
                 </ul>
                 <div className="md:mt-8 mt-6">
-                  <Link href={"#"} legacyBehavior>
                   <ThemeButton className="md:w-auto">
                       Start Free Trial
                       <svg
@@ -304,7 +299,6 @@ const PlatformComt: NextComponentType = () => {
                           />
                         </svg>
                     </ThemeButton>
-                  </Link>
                 </div>
                 </div>
               </div>

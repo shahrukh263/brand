@@ -17,7 +17,8 @@ const HomePlatformComp: NextComponentType = () => {
               >
                 <div className="lg:pr-[10px]">
                   <h4 className="md:mt-0 mt-6 text-[#2B2866] lg:text-[40px] font-[600] inter-display tracking-[-0.02em] lg:leading-[1] md:text-3xl text-2xl md:mb-8 mb-6">
-                    Save hours with our <span className="lg:block">AI-powered Helpdesk</span>
+                    Save hours with our{" "}
+                    <span className="lg:block">AI-powered Helpdesk</span>
                   </h4>
                   <ul className="flex flex-col md:gap-y-4 gap-y-3">
                     <li className="flex gap-x-3">
@@ -76,32 +77,31 @@ const HomePlatformComp: NextComponentType = () => {
                     </li>
                   </ul>
                   <div className="flex sm:flex-row flex-col gap-5 mb-2 md:mt-8 mt-6">
-                        <Link href={"#"} legacyBehavior>
-                          <ThemeButton className="md:w-auto">
-                          Explore our Helpdesk
-                            <svg
-                              width="20"
-                              height="20"
-                              viewBox="0 0 20 20"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M7.5 5L12.5 10L7.5 15"
-                                stroke="white"
-                                strokeWidth="1.66667"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                          </ThemeButton>
-                        </Link>
-                        <Link href={"#"} legacyBehavior>
-                          <a className="inline-block py-[10px] px-[14px] text-center rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
-                          Start Free Trial
-                          </a>
-                        </Link>
-                      </div>
+                    <ThemeButton className="md:w-auto">
+                      Explore our Helpdesk
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7.5 5L12.5 10L7.5 15"
+                          stroke="white"
+                          strokeWidth="1.66667"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </ThemeButton>
+                    <Link
+                      href={"#"}
+                      className="inline-block py-[10px] px-[14px] text-center rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white"
+                    >
+                      Start Free Trial
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div
@@ -197,33 +197,32 @@ const HomePlatformComp: NextComponentType = () => {
                         </span>
                       </li>
                     </ul>
-                      <div className="flex sm:flex-row flex-col gap-5 mb-2 md:mt-8 mt-6">
-                        <Link href={"#"} legacyBehavior>
-                          <ThemeButton className="md:w-auto">
-                            Explore Social Inbox
-                            <svg
-                              width="20"
-                              height="20"
-                              viewBox="0 0 20 20"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M7.5 5L12.5 10L7.5 15"
-                                stroke="white"
-                                strokeWidth="1.66667"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                          </ThemeButton>
-                        </Link>
-                        <Link href={"#"} legacyBehavior>
-                          <a className="inline-block text-center py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
-                          Start Free Trial
-                          </a>
-                        </Link>
-                      </div>
+                    <div className="flex sm:flex-row flex-col gap-5 mb-2 md:mt-8 mt-6">
+                      <ThemeButton className="md:w-auto">
+                        Explore Social Inbox
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7.5 5L12.5 10L7.5 15"
+                            stroke="white"
+                            strokeWidth="1.66667"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      </ThemeButton>
+                      <Link
+                        href={"#"}
+                        className="inline-block text-center py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white"
+                      >
+                        Start Free Trial
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

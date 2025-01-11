@@ -16,10 +16,10 @@ const HelpDeskHero: NextComponentType = () => {
               Reduce response times with our AI-powered Helpdesk
             </h1>
             <p className="text-[#475467] md:text-base text-sm tracking-[-0.011em] font-[400] mt-5 mb-8">
-            Automate up to 70% of customer inquiries by empowering your team with a helpdesk built for AI.
+              Automate up to 70% of customer inquiries by empowering your team
+              with a helpdesk built for AI.
             </p>
             <div className="flex sm:flex-row flex-col gap-5 justify-center mb-2">
-              <Link href={"#"} legacyBehavior>
                 <ThemeButton className="w-auto">
                   Start Free Trial
                   <svg
@@ -38,11 +38,11 @@ const HelpDeskHero: NextComponentType = () => {
                     />
                   </svg>
                 </ThemeButton>
-              </Link>
-              <Link href={"#"} legacyBehavior>
-                <a className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
-                  Book a Demo
-                </a>
+              <Link
+                href={"#"}
+                className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white"
+              >
+                Book a Demo
               </Link>
             </div>
           </div>

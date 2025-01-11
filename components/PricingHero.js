@@ -6,13 +6,13 @@ import { useState } from "react";
 import * as React from "react";
 import { Range } from "react-range";
 import { useWindowSize } from "../hooks/useWIndowSize";
-import ThemeButton from '../ui/button'
+import ThemeButton from "../ui/button";
 const formatter = new Intl.NumberFormat("en-US");
 
 const SLABS = [
   { slab: 5, value: 100, mobile: true },
   { slab: 15, value: 250 },
-  { slab: 25, value: 500 , mobile: true  },
+  { slab: 25, value: 500, mobile: true },
   { slab: 35, value: 1000 },
   { slab: 45, value: 2500, mobile: true },
   { slab: 55, value: 5000 },
@@ -263,11 +263,9 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <Link href={'#'} legacyBehavior>
-                          <ThemeButton className="">
-                            Start 7-day Free Trial
-                          </ThemeButton>
-                        </Link>
+                        <ThemeButton className="">
+                          Start 7-day Free Trial
+                        </ThemeButton>
                         <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
@@ -420,11 +418,9 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <Link href={'#'} legacyBehavior>
-                          <ThemeButton className="">
-                            Start 7-day Free Trial
-                          </ThemeButton>
-                        </Link>
+                        <ThemeButton className="">
+                          Start 7-day Free Trial
+                        </ThemeButton>
                         <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
@@ -515,10 +511,11 @@ const PricingHero = () => {
               <h4 className="text-[#2B2866] md:text-[24px] text-[20px] md:leading-[32px] leading-[28px] font-[600] inter-display md:tracking-[-0.02em] tracking-[-0.01em] mb-4">
                 Have questions or want to build a custom plan for your store?
               </h4>
-              <Link href={"#"} legacyBehavior>
-                <a className="inline-block p-[10px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
-                  Contact Sales
-                </a>
+              <Link
+                href={"#"}
+                className="inline-block p-[10px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white"
+              >
+                Contact Sales
               </Link>
             </div>
           </div>

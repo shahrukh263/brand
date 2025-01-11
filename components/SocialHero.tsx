@@ -21,30 +21,29 @@ const SocialHero: NextComponentType = () => {
               your sales with AI.
             </p>
             <div className="flex sm:flex-row flex-col gap-5 justify-center mb-2">
-              <Link href={"#"} legacyBehavior>
-                <ThemeButton className="w-auto">
-                  Start Free Trial
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M7.5 5L12.5 10L7.5 15"
-                      stroke="white"
-                      strokeWidth="1.66667"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </ThemeButton>
-              </Link>
-              <Link href={"#"} legacyBehavior>
-                <a className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
-                  Book a Demo
-                </a>
+              <ThemeButton className="w-auto">
+                Start Free Trial
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 5L12.5 10L7.5 15"
+                    stroke="white"
+                    strokeWidth="1.66667"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </ThemeButton>
+              <Link
+                href={"#"}
+                className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white"
+              >
+                Book a Demo
               </Link>
             </div>
           </div>

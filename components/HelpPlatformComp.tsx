@@ -84,7 +84,6 @@ const HelpPlatformComp: NextComponentType = () => {
                 </li>
               </ul>
               <div className="md:mt-8 mt-6">
-                <Link href={"#"} legacyBehavior>
                   <ThemeButton className="md:w-auto">
                     Start Free Trial
                     <svg
@@ -103,7 +102,6 @@ const HelpPlatformComp: NextComponentType = () => {
                         />
                       </svg>
                   </ThemeButton>
-                </Link>
               </div>
               </div>
             </div>
@@ -189,7 +187,6 @@ const HelpPlatformComp: NextComponentType = () => {
                   </li>
                 </ul>
                 <div className="md:mt-8 mt-6">
-                  <Link href={"#"} legacyBehavior>
                   <ThemeButton className="md:w-auto">
                       Start Free Trial
                       <svg
@@ -208,7 +205,6 @@ const HelpPlatformComp: NextComponentType = () => {
                           />
                         </svg>
                     </ThemeButton>
-                  </Link>
                 </div>
                </div>
               </div>
