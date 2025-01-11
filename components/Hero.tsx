@@ -67,7 +67,7 @@ const HomeHero: NextComponentType = () => {
               more customers with AI that not only makes you faster, but better.
             </p>
             <div className="flex sm:flex-row flex-col gap-5 justify-center mb-2">
-              <Link href={"#"} passHref>
+              <Link href={"#"} legacyBehavior>
                 <ThemeButton className="w-auto">
                   Start Free Trial
                   <svg
@@ -87,7 +87,7 @@ const HomeHero: NextComponentType = () => {
                   </svg>
                 </ThemeButton>
               </Link>
-              <Link href={"#"} passHref>
+              <Link href={"#"} legacyBehavior>
                 <a className="inline-block py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                   Book a Demo
                 </a>

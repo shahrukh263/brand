@@ -76,7 +76,7 @@ const HomePlatformComp: NextComponentType = () => {
                     </li>
                   </ul>
                   <div className="flex sm:flex-row flex-col gap-5 mb-2 md:mt-8 mt-6">
-                        <Link href={"#"} passHref>
+                        <Link href={"#"} legacyBehavior>
                           <ThemeButton className="md:w-auto">
                           Explore our Helpdesk
                             <svg
@@ -96,7 +96,7 @@ const HomePlatformComp: NextComponentType = () => {
                             </svg>
                           </ThemeButton>
                         </Link>
-                        <Link href={"#"} passHref>
+                        <Link href={"#"} legacyBehavior>
                           <a className="inline-block py-[10px] px-[14px] text-center rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                           Start Free Trial
                           </a>
@@ -198,7 +198,7 @@ const HomePlatformComp: NextComponentType = () => {
                       </li>
                     </ul>
                       <div className="flex sm:flex-row flex-col gap-5 mb-2 md:mt-8 mt-6">
-                        <Link href={"#"} passHref>
+                        <Link href={"#"} legacyBehavior>
                           <ThemeButton className="md:w-auto">
                             Explore Social Inbox
                             <svg
@@ -218,7 +218,7 @@ const HomePlatformComp: NextComponentType = () => {
                             </svg>
                           </ThemeButton>
                         </Link>
-                        <Link href={"#"} passHref>
+                        <Link href={"#"} legacyBehavior>
                           <a className="inline-block text-center py-[10px] px-[14px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                           Start Free Trial
                           </a>

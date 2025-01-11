@@ -515,7 +515,7 @@ const PricingHero = () => {
               <h4 className="text-[#2B2866] md:text-[24px] text-[20px] md:leading-[32px] leading-[28px] font-[600] inter-display md:tracking-[-0.02em] tracking-[-0.01em] mb-4">
                 Have questions or want to build a custom plan for your store?
               </h4>
-              <Link href={"#"} passHref>
+              <Link href={"#"} legacyBehavior>
                 <a className="inline-block p-[10px] rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] [box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] bg-white">
                   Contact Sales
                 </a>

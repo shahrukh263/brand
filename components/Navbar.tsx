@@ -17,7 +17,7 @@ const Navbar: NextComponentType = () => {
         <div className="innerDiv 2xl:px-[0!important] xl:px-[80px!important] lg:px-[20px!important] md:px-[30px!important] !px-0">
           <nav className="md:flex items-center">
             <div className="flex items-center justify-between md:px-0 px-5">
-              <Link href={"/"} passHref>
+              <Link href={"/"} legacyBehavior>
                 <a className="inline-block py-[19px] logo">
                   <svg
                     width="153"
@@ -129,7 +129,7 @@ const Navbar: NextComponentType = () => {
             >
               <ul className="md:flex md:mx-auto gap-x-7">
                 <li>
-                  <Link href={"#"} passHref>
+                  <Link href={"#"} legacyBehavior>
                     <a className="inline-flex items-center md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Product{" "}
                       {/* <svg
@@ -150,21 +150,21 @@ const Navbar: NextComponentType = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/pricing"} passHref>
+                  <Link href={"/pricing"} legacyBehavior>
                     <a className="inline-block md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Pricing
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={"#"} passHref>
+                  <Link href={"#"} legacyBehavior>
                     <a className="inline-block md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Roadmap
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={"#"} passHref>
+                  <Link href={"#"} legacyBehavior>
                     <a className="inline-flex items-center md:py-[22px] py-4 text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em]">
                       Resources{" "}
                       {/* <svg
@@ -187,7 +187,7 @@ const Navbar: NextComponentType = () => {
               </ul>
               <ul className="flex gap-4">
                 <li>
-                  <Link href={"#"} passHref>
+                  <Link href={"#"} legacyBehavior>
                     <a className="inline-block md:px-[10px] md:py-[6px] py-4 md:rounded-lg text-[#475467] text-[14px] font-[400] leading-[20px] tracking-[-0.006em] md:[box-shadow:0px_0px_0px_1px_#E1E4EA,_0px_1px_3px_0px_#0E121B1F] md:bg-white">
                       Log In
                     </a>
