@@ -263,11 +263,11 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a>
+                        <Link href={'#'} legacyBehavior>
                           <ThemeButton className="">
                             Start 7-day Free Trial
                           </ThemeButton>
-                        </a>
+                        </Link>
                         <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
@@ -420,11 +420,11 @@ const PricingHero = () => {
                             </p>
                           </div>
                         </div>
-                        <a>
+                        <Link href={'#'} legacyBehavior>
                           <ThemeButton className="">
                             Start 7-day Free Trial
                           </ThemeButton>
-                        </a>
+                        </Link>
                         <div className="mt-6 flex items-center gap-[8px] md:justify-center">
                           <Image src={DataIcon} alt="" />
                           <span className="text-[16px] text-[#0C111D] font-[400] tracking-[-0.017em] leading-[24px]">
