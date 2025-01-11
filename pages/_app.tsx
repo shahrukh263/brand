@@ -1,4 +1,4 @@
-import '../styles/globals.scss';
+import '../styles/index.scss';
 import type {AppProps} from 'next/app';
 import Navbar from '../components/Navbar';
 import Footer from './../components/footer';
