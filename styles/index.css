@@ -376,7 +376,7 @@ footer {
   margin: 0 auto;
 }
 
-.theme-btn {
+.v2-theme-btn {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.16) 0%,
@@ -395,21 +395,21 @@ footer {
   overflow: hidden;
 }
 
-.img-block {
+.v2-img-block {
   border: 0.75px solid rgba(0, 0, 0, 0.16) !important;
 }
 
-.img-block span {
+.v2-img-block span {
   display: block !important;
   border: 0.75px solid !important;
 }
 
-.img-block img {
+.v2-img-block img {
   display: block !important;
 }
 
-.image-block span,
-.image-block img {
+.v2-image-block span,
+.v2-image-block img {
   display: block !important;
 }
 

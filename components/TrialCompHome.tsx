@@ -52,7 +52,7 @@ const TrialCompHome: NextComponentType = () => {
               <div className="lg:w-[calc(50%-10px)] xl:w-[56%] w-full lg:pl-0 pl-[19px]">
                 <div className="sm:block hidden">
                   <div
-                    className="block-img lg:mt-0 mt-9 image-block"
+                    className="block-img lg:mt-0 mt-9 v2-image-block"
                     data-aos="fade-left"
                   >
                     <Image src={LiveChatImg} width={1292} height={756} alt="" />

@@ -68,7 +68,7 @@ const TestimonialComp: NextComponentType = () => {
                       height={48}
                       objectFit="cover"
                       alt=""
-                      className="img-block rounded-full  opacity-[0.08px]"
+                      className="v2-img-block rounded-full  opacity-[0.08px]"
                     /> */}
                     <div className="w-12 h-12 rounded-full gradient1 flex justify-center items-center">
                       <span className="font-[800] text-base tracking-[0.03em]">
