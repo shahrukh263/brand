@@ -60,7 +60,7 @@ const TrialCompHome: NextComponentType = () => {
                 </div>
                 <div className="sm:hidden block">
                   <div
-                    className="block-img  -mt-6 -mr-[84px] -mb-3"
+                    className="block-img  mt-6 -mr-[84px] -mb-3"
                     data-aos="fade-left"
                   >
                     <Image src={LiveChatImg} width={672} height={585} alt="" />
